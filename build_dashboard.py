@@ -17,6 +17,7 @@ from statistics import median
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(ROOT, "data", "radar.db")
 CSV_PATH = os.path.join(ROOT, "data", "signal.csv")
+RECO_PATH = os.path.join(ROOT, "data", "recommendations.json")
 DOCS_HTML = os.path.join(ROOT, "docs", "index.html")
 README_PATH = os.path.join(ROOT, "README.md")
 
@@ -37,7 +38,7 @@ def load_data():
     conn = sqlite3.connect(DB_PATH)
     # 每个跟踪仓库的最新快照
     snaps = conn.execute(
-        """SELECT s.full_name, s.date, s.stars, s.open_issues
+        """SELECT s.full_name, s.date, s.stars, s.open_issues, s.pushed_at
            FROM snapshots s
            JOIN repos r ON r.full_name = s.full_name AND r.status='tracked'
            WHERE s.date = (SELECT MAX(date) FROM snapshots WHERE full_name = s.full_name)
@@ -61,6 +62,7 @@ def load_data():
         if a and b:
             resp_hours[fn].append((b - a).total_seconds() / 3600.0)
     resp_med = {fn: round(median(v), 1) for fn, v in resp_hours.items() if v}
+    resp_cnt = {fn: len(v) for fn, v in resp_hours.items()}
     # 趋势（≥2 天快照的仓库）
     trend = defaultdict(list)
     for fn, date, stars, oi in conn.execute(
@@ -72,17 +74,26 @@ def load_data():
         trend[fn].append({"date": date, "stars": stars, "open_issues": oi})
     conn.close()
 
-    latest = [{"full_name": fn, "date": d, "stars": s or 0, "open_issues": oi or 0} for fn, d, s, oi in snaps]
+    latest = [{"full_name": fn, "date": d, "stars": s or 0, "open_issues": oi or 0, "pushed_at": pt}
+              for fn, d, s, oi, pt in snaps]
     for r in latest:
         r["issue_ratio"] = round(r["open_issues"] / max(r["stars"], 1), 4)
         r["resp_hours"] = resp_med.get(r["full_name"])
+        r["resp_samples"] = resp_cnt.get(r["full_name"], 0)
     latest.sort(key=lambda r: r["open_issues"], reverse=True)
 
-    # 信号（≥2 天）
+    # 信号（≥2 天），合并进 latest 供评分用
     signals = []
     if os.path.exists(CSV_PATH):
         with open(CSV_PATH, "r", encoding="utf-8") as f:
             signals = list(csv.DictReader(f))
+    sigmap = {s["full_name"]: s for s in signals}
+    for r in latest:
+        s = sigmap.get(r["full_name"])
+        if s:
+            r["stars_per_day"] = float(s.get("stars_per_day") or 0)
+            r["accel_x"] = float(s.get("accel_x") or 0)
+            r["signal"] = s.get("signal")
 
     data_date = max((r["date"] for r in latest), default=datetime.date.today().isoformat())
     return {"stats": stats, "latest": latest, "signals": signals, "trend": trend, "date": data_date}
@@ -153,12 +164,27 @@ def update_readme(board_md):
 
 
 def build_html(data):
+    reco = {}
+    if os.path.exists(RECO_PATH):
+        try:
+            with open(RECO_PATH, "r", encoding="utf-8") as f:
+                reco = json.load(f)
+        except Exception:
+            reco = {}
+    if reco and reco.get("items"):
+        smap = {it["full_name"]: it for it in (reco.get("all") or reco.get("items") or [])}
+        for r in data["latest"]:
+            s = smap.get(r["full_name"])
+            if s:
+                r["score"] = s["score"]
+                r["grade"] = s["grade"]
     payload = {
         "date": data["date"],
         "stats": data["stats"],
         "latest": data["latest"],
         "signals": data["signals"],
         "trend": data["trend"],
+        "reco": reco,
     }
     js = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
     return HTML_TEMPLATE.replace("__PAYLOAD__", js)
@@ -202,8 +228,20 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
   .pill.ok{background:rgba(126,224,195,.15);color:var(--green)}
   .pill.mid{background:rgba(122,162,255,.15);color:var(--accent)}
   .muted{color:var(--muted)}
+  .reco{grid-column:1/-1}
+  .reco-row{display:grid;grid-template-columns:34px 1fr 92px 66px 84px 84px 100px;gap:10px;align-items:center;padding:10px 4px;border-bottom:1px solid var(--line)}
+  .reco-row:last-child{border-bottom:none}
+  .reco-rank{font-size:18px;font-weight:800;color:var(--gold);text-align:center}
+  .reco-name{font-weight:600}
+  .reco-meta{color:var(--muted);font-size:11.5px}
+  .score-big{font-size:19px;font-weight:800;text-align:right}
+  .score-big.hot{color:var(--gold)}
+  .score-big.ok{color:var(--green)}
+  .score-big.mid{color:var(--accent)}
+  .reco-bar{height:5px;border-radius:3px;background:#232c40;overflow:hidden}
+  .reco-bar>i{display:block;height:100%;background:var(--gold)}
   footer{max-width:1200px;margin:24px auto 0;color:var(--muted);font-size:11px;text-align:center}
-  @media(max-width:640px){.grid{grid-template-columns:1fr}.chart{height:300px}}
+  @media(max-width:640px){.grid{grid-template-columns:1fr}.chart{height:300px}.reco-row{grid-template-columns:28px 1fr 60px;grid-template-rows:auto auto}}
 </style>
 </head>
 <body>
@@ -213,6 +251,12 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 </header>
 
 <div class="stats" id="stats"></div>
+
+<div class="panel reco" style="max-width:1200px;margin:0 auto 16px">
+  <h2>🏆 值得跟踪 Top 5 · 算法评分</h2>
+  <div class="hint">0.25·发展 + 0.30·响应 + 0.20·issue健康 + 0.25·社区认可 —— 适合跟踪 issue / 提 PR（数据不足时按今日快照）</div>
+  <div id="recoList"></div>
+</div>
 
 <div class="grid">
   <div class="panel">
@@ -261,6 +305,28 @@ document.getElementById('stats').innerHTML = statCards.map(([l,n,c]) =>
   `<div class="card"><div class="lbl">${l}</div><div class="num" style="color:${c}">${n}</div></div>`).join('');
 
 const AXIS = '#8b96ad', TEXT = '#e5e9f0';
+
+// 🏆 值得跟踪 Top 5
+const reco = (D.reco && D.reco.items) || [];
+const recoEl = document.getElementById('recoList');
+if(!reco.length){
+  recoEl.innerHTML = '<div class="empty">评分数据生成中 · 明天（第 2 天快照）起更完整</div>';
+} else {
+  recoEl.innerHTML = reco.map((r,i)=>{
+    const cls = r.score>=75?'hot':(r.score>=60?'ok':'mid');
+    const b = r.breakdown||{};
+    const rh = r.resp_hours==null ? '—' : r.resp_hours+'h';
+    return `<div class="reco-row">
+      <div class="reco-rank">${i+1}</div>
+      <div><div class="reco-name">${r.full_name}</div><div class="reco-meta">open issues ${r.open_issues} · 响应 ${rh} · 积压 ${((r.issue_ratio||0)*100).toFixed(2)}% · 样本 ${r.resp_samples||0}</div></div>
+      <div class="score-big ${cls}">${r.score}</div>
+      <div class="reco-meta" style="text-align:right">${r.grade||''}</div>
+      <div class="reco-meta" style="text-align:right">发展 ${Math.round((b.growth||0)*100)}</div>
+      <div class="reco-meta" style="text-align:right">响应 ${Math.round((b.responsiveness||0)*100)}</div>
+      <div><div class="reco-bar"><i style="width:${Math.min(100,r.score)}%"></i></div><div class="reco-meta" style="text-align:right">${r.score}/100</div></div>
+    </div>`;
+  }).join('');
+}
 function hbar(id, names, vals, color){
   const el = document.getElementById(id);
   if(!names.length){ el.innerHTML = '<div class="empty">暂无数据 · 等待第 2 天快照</div>'; return; }
@@ -291,10 +357,11 @@ const tbody = D.latest.map(r=>{
   const pct = (r.issue_ratio*100).toFixed(2)+'%';
   const pill = r.issue_ratio>=0.05 ? '<span class="pill warn">积压</span>' : '<span class="pill ok">健康</span>';
   const rh = r.resp_hours==null ? '—' : r.resp_hours+'h';
-  return `<tr><td>${r.full_name}</td><td class="num">${r.stars}</td><td class="num">${r.open_issues}</td><td class="num">${pct}</td><td>${pill}</td><td class="num">${rh}</td></tr>`;
+  const sc = r.score!=null ? `<span class="score-big ${r.score>=75?'hot':(r.score>=60?'ok':'mid')}" style="font-size:14px">${r.score}</span>` : '—';
+  return `<tr><td>${r.full_name}</td><td>${sc}</td><td class="num">${r.stars}</td><td class="num">${r.open_issues}</td><td class="num">${pct}</td><td>${pill}</td><td class="num">${rh}</td></tr>`;
 }).join('');
 document.getElementById('tableWrap').innerHTML =
-  `<table><thead><tr><th>仓库</th><th class="num">stars</th><th class="num">open issues</th><th class="num">积压比</th><th>状态</th><th class="num">响应时长</th></tr></thead><tbody>${tbody}</tbody></table>`;
+  `<table><thead><tr><th>仓库</th><th>评分</th><th class="num">stars</th><th class="num">open issues</th><th class="num">积压比</th><th>状态</th><th class="num">响应时长</th></tr></thead><tbody>${tbody}</tbody></table>`;
 </script>
 </body>
 </html>

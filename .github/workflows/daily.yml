@@ -35,6 +35,9 @@ jobs:
       - name: 信号分析
         run: python3 analyze.py
 
+      - name: 推荐 Top N（值得跟踪 issue / 提 PR）
+        run: python3 recommend.py --top 5
+
       - name: 生成网页看板 + README 排行榜
         run: python3 build_dashboard.py
 
