@@ -1,0 +1,4 @@
+full_name,days,stars_from,stars_to,star_delta,stars_per_day,recent_per_day,accel_x,open_issues_from,open_issues_to,issue_delta,issue_ratio,resp_hours,signal
+maximhq/bifrost,1,7681,7683,2,2.0,2,1.0,973,973,0,0.1266,,停滞/冷却
+osaurus-ai/osaurus,1,7747,7747,0,0.0,0,0.0,184,184,0,0.0238,,停滞/冷却
+EricLBuehler/mistral.rs,1,7638,7638,0,0.0,0,0.0,380,380,0,0.0498,35.7,停滞/冷却

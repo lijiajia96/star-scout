@@ -1,0 +1,31 @@
+{
+  "db_path": "data/radar.db",
+  "csv_path": "data/signal.csv",
+  "report_dir": "data/reports",
+  "腰部定义": {
+    "min_stars": 100,
+    "max_stars": 20000,
+    "min_created_days": 30,
+    "max_created_days": 1500,
+    "recent_push_days": 14
+  },
+  "搜索主题": ["ai", "llm", "agent", "generative-ai", "machine-learning", "deep-learning", "ai-agents", "mcp", "rag"],
+  "ai_domain": {
+    "require": true,
+    "topics": ["ai", "llm", "agent", "ai-agents", "ai-agent", "machine-learning", "deep-learning", "artificial-intelligence", "generative-ai", "genai", "nlp", "computer-vision", "rag", "mcp", "gpt", "chatbot", "llmops", "mlops", "multimodal", "embeddings", "embedding", "fine-tuning", "llm-inference", "text-generation", "image-generation", "stable-diffusion", "langchain", "neural-network", "transformer", "foundation-models", "vision-language-model", "openai", "copilot", "ai-assistant", "semantic-search", "text-to-image"],
+    "keywords": ["ai", "llm", "gpt", "machine learning", "deep learning", "artificial intelligence", "generative", "neural", "transformer", "embedding", "openai", "anthropic", "claude", "gemini", "grok", "llama", "mistral", "langchain", "stable diffusion", "diffusion", "rag", "fine-tun", "finetun", "copilot", "chatbot", "text-to", "image generation", "text generation", "multimodal", "vlm", "genai", "mcp", "prompt", "tokenizer", "agentic", "ai-native", "ai-powered", "ai powered", "autogen", "crewai", "autogpt", "model context protocol", "semantic search", "llmops", "mlops", "vision-language"]
+  },
+  "采集": {
+    "max_open_issue_pages": 2,
+    "response_sample_per_repo": 10,
+    "max_repos_per_run": 30,
+    "min_rate_limit_floor": 10
+  },
+  "信号阈值": {
+    "爆发_stars_per_day": 50,
+    "增长_stars_per_day": 8,
+    "响应快_hours": 24,
+    "响应慢_hours": 168,
+    "issue积压_ratio": 0.05
+  }
+}

@@ -1,0 +1,44 @@
+name: ai-issue-radar-daily
+
+on:
+  schedule:
+    # 每天 01:17 UTC = 09:17 北京时间（避开整点 GitHub 高负载）
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 发现腰部候选（每周跑一次即可，用 cron 之外手动触发）
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 discover.py
+
+      - name: 每日采集（星速 + open issues + 响应时长）
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 collect.py
+
+      - name: 信号分析
+        run: python3 analyze.py
+
+      - name: 提交数据快照回仓库
+        run: |
+          git config user.name "ai-issue-radar[bot]"
+          git config user.email "ai-issue-radar[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "daily snapshot $(date +%F)"
+          git push
