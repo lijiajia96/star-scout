@@ -15,11 +15,19 @@
     "topics": ["ai", "llm", "agent", "ai-agents", "ai-agent", "machine-learning", "deep-learning", "artificial-intelligence", "generative-ai", "genai", "nlp", "computer-vision", "rag", "mcp", "gpt", "chatbot", "llmops", "mlops", "multimodal", "embeddings", "embedding", "fine-tuning", "llm-inference", "text-generation", "image-generation", "stable-diffusion", "langchain", "neural-network", "transformer", "foundation-models", "vision-language-model", "openai", "copilot", "ai-assistant", "semantic-search", "text-to-image"],
     "keywords": ["ai", "llm", "gpt", "machine learning", "deep learning", "artificial intelligence", "generative", "neural", "transformer", "embedding", "openai", "anthropic", "claude", "gemini", "grok", "llama", "mistral", "langchain", "stable diffusion", "diffusion", "rag", "fine-tun", "finetun", "copilot", "chatbot", "text-to", "image generation", "text generation", "multimodal", "vlm", "genai", "mcp", "prompt", "tokenizer", "agentic", "ai-native", "ai-powered", "ai powered", "autogen", "crewai", "autogpt", "model context protocol", "semantic search", "llmops", "mlops", "vision-language"]
   },
+  "机器人过滤": {
+    "enable": true,
+    "deny_logins": ["agent-cortex", "sweep-ai", "codeflash-ai", "gitauto-ai", "korbit-ai", "ellipsis-dev", "entelligence-ai", "cubic-dev-ai", "greptile-apps", "devin-ai-integration", "qodo-merge-pro", "sourcery-ai", "deepsource-autofix", "restyled-io", "allcontributors", "netlify", "vercel", "changeset-bot"],
+    "deny_login_substrings": ["[bot]", "-bot", "_bot", "bot-", "coderabbit", "dosubot", "renovate", "dependabot", "codecov", "sonarcloud", "stale", "semantic-release", "github-actions", "copilot", "gemini-code-assist"]
+  },
   "采集": {
+    "max_issue_pages": 2,
     "max_open_issue_pages": 2,
-    "response_sample_per_repo": 10,
-    "max_repos_per_run": 30,
-    "min_rate_limit_floor": 10
+    "response_sample_per_repo": 8,
+    "max_repos_per_run": 20,
+    "max_repos_per_day": 60,
+    "request_budget": 800,
+    "min_rate_limit_floor": 30
   },
   "信号阈值": {
     "爆发_stars_per_day": 50,

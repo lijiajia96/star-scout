@@ -46,6 +46,24 @@ def classify(cfg, stars_per_day, issue_ratio, resp_hours, open_issues):
     return "停滞/冷却"
 
 
+def robust_star_velocity(snaps):
+    """抗断档星速：用相邻快照的『日均增量』中位数，而不是首末差/总天数。
+    某天 Actions 失败导致断档时，首末法会低估；中位数法只受影响一段，且更稳健。
+    返回 (稳健星速, 最近一天日均增量)"""
+    rates = []
+    for (d0, s0, *_), (d1, s1, *_) in zip(snaps, snaps[1:]):
+        try:
+            gap = (datetime.date.fromisoformat(d1) - datetime.date.fromisoformat(d0)).days
+        except Exception:
+            continue
+        if gap <= 0 or s0 is None or s1 is None:
+            continue
+        rates.append((s1 - s0) / gap)
+    if not rates:
+        return 0.0, 0.0
+    return median(rates), rates[-1]
+
+
 def analyze(cfg):
     conn = db.connect(os.path.join(ROOT, cfg.get("db_path", "data/radar.db")))
     repos = db.tracked_repos(conn)
@@ -60,14 +78,12 @@ def analyze(cfg):
         d1, s1, f1, i1, _ = snaps[-1]
         span = (datetime.date.fromisoformat(d1) - datetime.date.fromisoformat(d0)).days or 1
         star_delta = (s1 or 0) - (s0 or 0)
-        avg_per_day = star_delta / span
-        prev = snaps[-2]
-        recent_per_day = (s1 or 0) - (prev[1] or 0)          # 最近一天增量
+        avg_per_day, recent_per_day = robust_star_velocity(snaps)   # 抗断档
         accel = (recent_per_day / avg_per_day) if avg_per_day else 0.0
         issue_delta = (i1 or 0) - (i0 or 0)
         issue_ratio = (i1 or 0) / max(s1 or 1, 1)
 
-        # 响应时长（小时）
+        # 响应时长（小时）—— 仅统计过滤机器人后的人类响应
         samples = db.response_samples(conn, fn)
         resp_hours = None
         if samples:
@@ -85,7 +101,7 @@ def analyze(cfg):
             "days": span,
             "stars_from": s0, "stars_to": s1,
             "star_delta": star_delta, "stars_per_day": round(avg_per_day, 2),
-            "recent_per_day": recent_per_day, "accel_x": round(accel, 2),
+            "recent_per_day": round(recent_per_day, 2), "accel_x": round(accel, 2),
             "open_issues_from": i0, "open_issues_to": i1, "issue_delta": issue_delta,
             "issue_ratio": round(issue_ratio, 4),
             "resp_hours": resp_hours,

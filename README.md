@@ -54,16 +54,36 @@ python3 analyze.py
 | 参数 | 默认 | 说明 |
 |---|---|---|
 | `腰部定义.min/max_stars` | 100 / 20000 | 腰部段位（可调） |
-| `腰部定义.recent_push_days` | 14 | 近期活跃 |
-| `ai_domain.require` | true | 是否强制"必须 AI 相关" |
-| `ai_domain.topics` | 36 个 | 命中任一 topic 即视为 AI（llm/agent/rag/mcp…） |
-| `ai_domain.keywords` | 46 个 | 描述命中任一关键词（词边界匹配）即视为 AI（llm/gpt/agentic/copilot…） |
-| `采集.response_sample_per_repo` | 10 | 每个仓库采几个 issue 算响应时长 |
-| `信号阈值.爆发_stars_per_day` | 50 | ≥50 星/天 = 爆发 |
+| `机器人过滤.enable` | true | **过滤机器人评论**，只统计真人响应 |
+| `机器人过滤.deny_logins` | 18 个 | 已知 AI agent 账号黑名单（含伪装成 User 的） |
+| `机器人过滤.deny_login_substrings` | 15 个 | 子串匹配（`[bot]`、coderabbit、dosubot、dependabot…） |
+| `采集.request_budget` | 800 | **每次运行 API 请求预算**（Actions 额度 1000/hr） |
+| `采集.max_repos_per_day` | 60 | 每日采集仓库上限（超出的按最久未采集轮转） |
+| `采集.response_sample_per_repo` | 8 | 每个仓库采几个 issue 算响应时长 |
 | `信号阈值.issue积压_ratio` | 0.05 | open_issues/stars ≥5% = 积压 |
 
 > AI 领域过滤：候选仓库满足「topic ∈ ai_domain.topics」**或**「描述命中 ai_domain.keywords」才被收录。
-> 想收窄/放宽，直接改 `config.json` 里的 `ai_domain`；想临时关闭过滤，把 `require` 设为 `false`。
+
+## 数据质量设计（重要）
+
+这几点直接决定信号是否可信：
+
+1. **机器人过滤**：`coderabbitai[bot]`、`dosubot[bot]`、`agent-cortex` 等会在几分钟内自动回复 issue。
+   不过滤的话「响应快」测的是「谁装了 CI 机器人」而非「维护者是否活跃」。
+   实测过滤后 LangBot 响应时长从 5.3h 修正为 8.9h（+68%）。
+2. **消除生存者偏差**：采样用 `state=all` 而非只采 open。
+   只采 open 会漏掉「响应快 → 早已关闭」的 issue，系统性高估响应时长。
+3. **配额预算**：按 `request_budget` 反推每次采多少仓库，并按「最久未采集」轮转，
+   保证仓库数增长后每个仓库仍能轮到，而不是永远只采前 N 个。
+4. **抗断档星速**：用相邻快照的日增量**中位数**，某天 Actions 失败不会让星速被低估。
+5. **数据治理**：`maintain.py` 归档僵尸 issue、精简候选清单、VACUUM，防止 DB 与 git 仓库无限膨胀。
+
+## 数据维护
+
+```bash
+python3 maintain.py all              # 归档 + 精简候选 + VACUUM（每日随 workflow 自动执行）
+python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑重采（改过滤规则后用）
+```
 
 ## 已知难点（验证时注意）
 
@@ -99,7 +119,7 @@ python3 analyze.py
 
 | # | 仓库 | 积压比 | open issues | stars |
 |---|---|---|---|---|
-| 1 | maximhq/bifrost | 12.81% | 985 | 7689 |
+| 1 | maximhq/bifrost | 12.83% | 987 | 7692 |
 | 2 | elizaOS/eliza | 7.95% | 1528 | 19219 |
 | 3 | langchain4j/langchain4j | 6.82% | 885 | 12984 |
 | 4 | t8y2/dbx | 6.54% | 1148 | 17565 |
@@ -109,11 +129,9 @@ python3 analyze.py
 
 | # | 仓库 | 响应时长 | open issues |
 |---|---|---|---|
-| 1 | 2FastLabs/agent-squad | 4552.2h | 88 |
-| 2 | yusufkaraaslan/Skill_Seekers | 2677.3h | 53 |
-| 3 | ggml-org/ggml | 1322.7h | 351 |
-| 4 | datawhalechina/llm-universe | 1264.8h | 16 |
-| 5 | coderamp-labs/gitingest | 1082.8h | 22 |
+| 1 | langbot-app/LangBot | 8.9h | 128 |
+| 2 | maximhq/bifrost | 0.3h | 987 |
+| 3 | eosphoros-ai/DB-GPT | 0.2h | 423 |
 
 > 星速 = 总星差/天数；积压比 ≥5% 视为积压；响应时长 = issue 首个非作者评论时间中位数（小时）。
 <!-- STAR_SCOUT_BOARD:END -->
@@ -126,11 +144,11 @@ python3 analyze.py
 
 | # | 仓库 | 评分 | 评级 | 星速(天) | 响应时长 | 积压比 |
 |---|---|---|---|---|---|---|
-| 1 | img2threejs/img2threejs | **92.5** | 优质 | - | 5.6h | 0.50% |
-| 2 | e2b-dev/E2B | **92.5** | 优质 | - | 0.0h | 0.35% |
-| 3 | eosphoros-ai/DB-GPT | **92.3** | 优质 | - | 0.2h | 2.13% |
-| 4 | xming521/WeClone | **89.5** | 优质 | - | 2.2h | 0.22% |
-| 5 | superset-sh/superset | **89.0** | 优质 | - | 0.0h | 4.31% |
+| 1 | eosphoros-ai/DB-GPT | **88.6** | 优质 | - | 0.2h | 2.13% |
+| 2 | langbot-app/LangBot | **82.9** | 优质 | - | 8.9h | 0.73% |
+| 3 | fathah/hermes-desktop | **77.5** | 优质 | - | - | 2.84% |
+| 4 | 1jehuang/jcode | **77.5** | 优质 | - | - | 2.05% |
+| 5 | yc-software/qm | **77.5** | 优质 | - | - | 2.52% |
 
 > 发展=星速+近期提交活跃；响应=issue 首个非作者评论中位数；issue健康=积压比适中；社区认可=星标对数。缺数据取中性，避免冷启动一票否决。
 <!-- STAR_SCOUT_TOP:END -->

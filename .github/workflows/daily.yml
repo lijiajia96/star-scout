@@ -9,9 +9,15 @@ on:
 permissions:
   contents: write
 
+# 防止重复触发导致两个 run 同时提交（曾出现 dynamic + workflow_dispatch 并发）
+concurrency:
+  group: radar-daily
+  cancel-in-progress: false
+
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,16 +27,19 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: 发现腰部候选（每周跑一次即可，用 cron 之外手动触发）
+      - name: 发现腰部候选（仅手动触发时执行）
         if: ${{ github.event_name == 'workflow_dispatch' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 discover.py
 
-      - name: 每日采集（星速 + open issues + 响应时长）
+      - name: 每日采集（配额预算内 + 最久未采集优先轮转）
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 collect.py
+
+      - name: 数据维护（归档僵尸 issue / 精简候选 / VACUUM）
+        run: python3 maintain.py all
 
       - name: 信号分析
         run: python3 analyze.py
@@ -47,4 +56,6 @@ jobs:
           git config user.email "ai-issue-radar[bot]@users.noreply.github.com"
           git add data/ docs/ README.md
           git diff --cached --quiet || git commit -m "daily snapshot $(date +%F)"
+          # 并发/竞态时先 rebase 再推，避免整轮数据丢失
+          git pull --rebase --autostash origin main || true
           git push
