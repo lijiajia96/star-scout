@@ -30,10 +30,13 @@ def build_top_md(top):
         "|---|---|---|---|---|---|---|",
     ]
     for i, r in enumerate(top["items"], 1):
+        rh = r.get("resp_hours")
+        rh_s = f"{rh}h" if rh is not None else "-"
+        vel = r.get("stars_per_day")
+        vel_s = f"{vel}" if vel else "-"
         lines.append(
             f"| {i} | {r['full_name']} | **{r['score']}** | {r['grade']} | "
-            f"{r.get('stars_per_day') or '-'} | {r.get('resp_hours') or '-'}h | "
-            f"{((r.get('issue_ratio') or 0)*100):.2f}% |"
+            f"{vel_s} | {rh_s} | {((r.get('issue_ratio') or 0)*100):.2f}% |"
         )
     lines.append("")
     lines.append("> 发展=星速+近期提交活跃；响应=issue 首个非作者评论中位数；issue健康=积压比适中；"
