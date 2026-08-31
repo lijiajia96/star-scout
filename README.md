@@ -99,21 +99,21 @@ python3 analyze.py
 
 | # | 仓库 | 积压比 | open issues | stars |
 |---|---|---|---|---|
-| 1 | maximhq/bifrost | 12.66% | 973 | 7683 |
-| 2 | elizaOS/eliza | 7.89% | 1516 | 19217 |
-| 3 | t8y2/dbx | 6.49% | 1139 | 17551 |
-| 4 | EricLBuehler/mistral.rs | 4.98% | 380 | 7638 |
-| 5 | nesquena/hermes-webui | 4.53% | 811 | 17913 |
+| 1 | maximhq/bifrost | 12.81% | 985 | 7689 |
+| 2 | elizaOS/eliza | 7.95% | 1528 | 19219 |
+| 3 | langchain4j/langchain4j | 6.82% | 885 | 12984 |
+| 4 | t8y2/dbx | 6.54% | 1148 | 17565 |
+| 5 | livekit/agents | 5.64% | 785 | 13908 |
 
 ### 🐢 响应最慢榜（首个非作者评论中位数）
 
 | # | 仓库 | 响应时长 | open issues |
 |---|---|---|---|
 | 1 | 2FastLabs/agent-squad | 4552.2h | 88 |
-| 2 | google/magika | 839.3h | 165 |
-| 3 | ai-shifu/ChatALL | 742.6h | 228 |
-| 4 | xbtlin/ai-berkshire | 556.5h | 35 |
-| 5 | datawhalechina/easy-vibe | 458.5h | 16 |
+| 2 | yusufkaraaslan/Skill_Seekers | 2677.3h | 53 |
+| 3 | ggml-org/ggml | 1322.7h | 351 |
+| 4 | datawhalechina/llm-universe | 1264.8h | 16 |
+| 5 | coderamp-labs/gitingest | 1082.8h | 22 |
 
 > 星速 = 总星差/天数；积压比 ≥5% 视为积压；响应时长 = issue 首个非作者评论时间中位数（小时）。
 <!-- STAR_SCOUT_BOARD:END -->
@@ -126,11 +126,11 @@ python3 analyze.py
 
 | # | 仓库 | 评分 | 评级 | 星速(天) | 响应时长 | 积压比 |
 |---|---|---|---|---|---|---|
-| 1 | eosphoros-ai/DB-GPT | **92.3** | 优质 | - | 0.2h | 2.13% |
-| 2 | xming521/WeClone | **89.5** | 优质 | - | 2.2h | 0.22% |
-| 3 | langbot-app/LangBot | **88.8** | 优质 | - | 5.3h | 0.71% |
-| 4 | pydantic/pydantic-ai | **87.3** | 优质 | - | 0.6h | 3.98% |
-| 5 | nesquena/hermes-webui | **87.1** | 优质 | - | 0.9h | 4.53% |
+| 1 | img2threejs/img2threejs | **92.5** | 优质 | - | 5.6h | 0.50% |
+| 2 | e2b-dev/E2B | **92.5** | 优质 | - | -h | 0.35% |
+| 3 | eosphoros-ai/DB-GPT | **92.3** | 优质 | - | 0.2h | 2.13% |
+| 4 | xming521/WeClone | **89.5** | 优质 | - | 2.2h | 0.22% |
+| 5 | superset-sh/superset | **89.0** | 优质 | - | -h | 4.31% |
 
 > 发展=星速+近期提交活跃；响应=issue 首个非作者评论中位数；issue健康=积压比适中；社区认可=星标对数。缺数据取中性，避免冷启动一票否决。
 <!-- STAR_SCOUT_TOP:END -->
