@@ -35,10 +35,13 @@ jobs:
       - name: 信号分析
         run: python3 analyze.py
 
+      - name: 生成网页看板 + README 排行榜
+        run: python3 build_dashboard.py
+
       - name: 提交数据快照回仓库
         run: |
           git config user.name "ai-issue-radar[bot]"
           git config user.email "ai-issue-radar[bot]@users.noreply.github.com"
-          git add data/
+          git add data/ docs/ README.md
           git diff --cached --quiet || git commit -m "daily snapshot $(date +%F)"
           git push

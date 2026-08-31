@@ -84,3 +84,36 @@ python3 analyze.py
 ---
 
 *信号分类为启发式规则，仅用于项目可行性验证，不构成任何投资/技术选型建议。*
+
+
+## 📊 信号排行榜（每日自动更新）
+
+<!-- STAR_SCOUT_BOARD:START -->
+数据截至 **2026-08-31** · 完整图表看板见仓库 `docs/index.html`（GitHub Pages）
+
+### 🔥 星速榜（星/天，需 ≥2 天快照）
+
+⏳ 第 2 天快照后自动出现（所有仓库目前只有 1 天数据）。
+
+### ⚠️ 积压比榜（open issues / stars）
+
+| # | 仓库 | 积压比 | open issues | stars |
+|---|---|---|---|---|
+| 1 | maximhq/bifrost | 12.66% | 973 | 7683 |
+| 2 | elizaOS/eliza | 7.89% | 1516 | 19217 |
+| 3 | t8y2/dbx | 6.49% | 1139 | 17551 |
+| 4 | EricLBuehler/mistral.rs | 4.98% | 380 | 7638 |
+| 5 | nesquena/hermes-webui | 4.53% | 811 | 17913 |
+
+### 🐢 响应最慢榜（首个非作者评论中位数）
+
+| # | 仓库 | 响应时长 | open issues |
+|---|---|---|---|
+| 1 | 2FastLabs/agent-squad | 4552.2h | 88 |
+| 2 | google/magika | 839.3h | 165 |
+| 3 | ai-shifu/ChatALL | 742.6h | 228 |
+| 4 | xbtlin/ai-berkshire | 556.5h | 35 |
+| 5 | datawhalechina/easy-vibe | 458.5h | 16 |
+
+> 星速 = 总星差/天数；积压比 ≥5% 视为积压；响应时长 = issue 首个非作者评论时间中位数（小时）。
+<!-- STAR_SCOUT_BOARD:END -->
