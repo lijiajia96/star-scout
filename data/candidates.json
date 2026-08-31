@@ -1,442 +1,10 @@
 [
  {
-  "created_at": "2022-09-26T21:53:41Z",
-  "description": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming c",
-  "full_name": "Unstructured-IO/unstructured",
-  "pushed_at": "2026-08-28T21:17:30Z",
-  "stars": 15366,
-  "topics": [
-   "data-pipelines",
-   "deep-learning",
-   "document-image-analysis",
-   "document-image-processing",
-   "document-parser",
-   "document-parsing"
-  ]
- },
- {
-  "created_at": "2024-11-29T08:27:18Z",
-  "description": "Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase ",
-  "full_name": "coderamp-labs/gitingest",
-  "pushed_at": "2026-08-31T02:07:12Z",
-  "stars": 15364,
-  "topics": [
-   "ai",
-   "code",
-   "developer-tool",
-   "ingestion"
-  ]
- },
- {
-  "created_at": "2022-09-18T17:07:19Z",
-  "description": "Tensor library for machine learning",
-  "full_name": "ggml-org/ggml",
-  "pushed_at": "2026-08-31T09:59:50Z",
-  "stars": 15267,
-  "topics": [
-   "machine-learning"
-  ]
- },
- {
-  "created_at": "2023-12-27T12:59:00Z",
-  "description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the communit",
-  "full_name": "pipecat-ai/pipecat",
-  "pushed_at": "2026-08-31T09:00:22Z",
-  "stars": 15013,
-  "topics": [
-   "ai",
-   "chatbot-framework",
-   "chatbots",
-   "real-time",
-   "voice",
-   "voice-assistant"
-  ]
- },
- {
-  "created_at": "2026-01-29T10:25:45Z",
-  "description": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an ope",
-  "full_name": "HBAI-Ltd/Toonflow-app",
-  "pushed_at": "2026-08-26T10:49:08Z",
-  "stars": 14949,
-  "topics": [
-   "ai",
-   "ai-content-creation",
-   "ai-tool",
-   "ai-video-generation",
-   "automation",
-   "content-generation"
-  ]
- },
- {
-  "created_at": "2025-10-17T14:43:48Z",
-  "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict de",
-  "full_name": "yusufkaraaslan/Skill_Seekers",
-  "pushed_at": "2026-08-30T14:52:19Z",
-  "stars": 14869,
-  "topics": [
-   "ai-tools",
-   "ast-parser",
-   "automation",
-   "claude-ai",
-   "claude-skills",
-   "code-analysis"
-  ]
- },
- {
-  "created_at": "2025-12-17T08:41:09Z",
-  "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
-  "full_name": "opensandbox-group/OpenSandbox",
-  "pushed_at": "2026-08-31T12:39:44Z",
-  "stars": 14857,
-  "topics": [
-   "ai",
-   "ai-agent",
-   "ai-infra",
-   "kubernetes",
-   "sandbox"
-  ]
- },
- {
-  "created_at": "2026-07-15T02:58:39Z",
-  "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js mo",
-  "full_name": "img2threejs/img2threejs",
-  "pushed_at": "2026-08-31T09:28:46Z",
-  "stars": 14661,
-  "topics": [
-   "3d",
-   "ai-agents",
-   "claude-code",
-   "computer-graphics",
-   "generative",
-   "image-to-3d"
-  ]
- },
- {
-  "created_at": "2026-03-29T12:28:19Z",
-  "description": "Harness engineering beginner tutorial, from 0 to 1",
-  "full_name": "walkinglabs/learn-harness-engineering",
-  "pushed_at": "2026-08-26T01:08:59Z",
-  "stars": 14572,
-  "topics": [
-   "agent",
-   "agentic",
-   "agentic-ai",
-   "ai",
-   "ai-agent",
-   "ai-agents"
-  ]
- },
- {
-  "created_at": "2026-07-29T20:03:08Z",
-  "description": "Multiplayer agent harness for work.",
-  "full_name": "yc-software/qm",
-  "pushed_at": "2026-08-30T16:27:57Z",
-  "stars": 14387,
-  "topics": [
-   "ai",
-   "assistant",
-   "harness",
-   "qm"
-  ]
- },
- {
-  "created_at": "2025-07-29T01:54:40Z",
-  "description": "Personal memory across agents",
-  "full_name": "NevaMind-AI/memU",
-  "pushed_at": "2026-08-31T09:55:00Z",
-  "stars": 14365,
-  "topics": [
-   "agent-memory",
-   "claude-skills",
-   "harness",
-   "loop-engineering",
-   "mcp",
-   "memory"
-  ]
- },
- {
-  "created_at": "2026-03-31T17:30:14Z",
-  "description": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs,",
-  "full_name": "NanmiCoder/cc-haha",
-  "pushed_at": "2026-08-23T18:32:30Z",
-  "stars": 14253,
-  "topics": [
-   "agent",
-   "ai",
-   "ai-agent",
-   "anthropic",
-   "claude",
-   "claude-code"
-  ]
- },
- {
-  "created_at": "2026-04-07T04:15:51Z",
-  "description": "macOS video editor built for AI",
-  "full_name": "palmier-io/palmier-pro",
-  "pushed_at": "2026-08-28T23:30:01Z",
-  "stars": 14223,
-  "topics": [
-   "ai-video",
-   "claude",
-   "macos",
-   "mcp",
-   "seedance2",
-   "swift"
-  ]
- },
- {
-  "created_at": "2026-04-02T15:26:49Z",
-  "description": "Desktop Companion for Hermes Agent",
-  "full_name": "fathah/hermes-desktop",
-  "pushed_at": "2026-08-24T05:23:29Z",
-  "stars": 14085,
-  "topics": [
-   "ai",
-   "ai-agent",
-   "autonomous-agents",
-   "chatbot",
-   "hermes",
-   "llm"
-  ]
- },
- {
-  "created_at": "2026-04-22T01:09:45Z",
-  "description": "A library of agent skills for CAD, CAE and CAM",
-  "full_name": "earthtojake/text-to-cad",
-  "pushed_at": "2026-08-31T08:28:25Z",
-  "stars": 14070,
-  "topics": [
-   "agents",
-   "ai-agents",
-   "cad",
-   "mechanical-engineering",
-   "robotics",
-   "step"
-  ]
- },
- {
-  "created_at": "2023-10-19T23:00:55Z",
-  "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
-  "full_name": "livekit/agents",
-  "pushed_at": "2026-08-31T00:51:26Z",
-  "stars": 13907,
-  "topics": [
-   "agents",
-   "ai",
-   "openai",
-   "real-time",
-   "video",
-   "voice"
-  ]
- },
- {
-  "created_at": "2026-01-22T12:09:36Z",
-  "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. Fro",
-  "full_name": "waooAI/waoowaoo",
-  "pushed_at": "2026-08-29T09:59:35Z",
-  "stars": 13900,
-  "topics": [
-   "ai-agent",
-   "ai-agents",
-   "automation",
-   "film-production",
-   "generative-ai",
-   "short-drama"
-  ]
- },
- {
-  "created_at": "2023-10-29T16:01:22Z",
-  "description": "本项目是一个面向小白开发者的大模型应用开发教程，在线阅读地址：https://datawhalechina.github.io/llm-universe/",
-  "full_name": "datawhalechina/llm-universe",
-  "pushed_at": "2026-08-27T03:08:26Z",
-  "stars": 13882,
-  "topics": [
-   "langchain",
-   "rag"
-  ]
- },
- {
-  "created_at": "2024-12-31T08:11:27Z",
-  "description": "Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API k",
-  "full_name": "nanobrowser/nanobrowser",
-  "pushed_at": "2026-08-18T00:42:48Z",
-  "stars": 13703,
-  "topics": [
-   "agent",
-   "ai",
-   "ai-agents",
-   "ai-tools",
-   "automation",
-   "browser"
-  ]
- },
- {
-  "created_at": "2023-05-04T17:46:11Z",
-  "description": "20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
-  "full_name": "Lightning-AI/litgpt",
-  "pushed_at": "2026-08-31T01:02:56Z",
-  "stars": 13640,
-  "topics": [
-   "ai",
-   "artificial-intelligence",
-   "deep-learning",
-   "large-language-models",
-   "llm",
-   "llm-inference"
-  ]
- },
- {
-  "created_at": "2023-03-04T13:41:18Z",
-  "description": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
-  "full_name": "e2b-dev/E2B",
-  "pushed_at": "2026-08-31T07:08:51Z",
-  "stars": 13604,
-  "topics": [
-   "agent",
-   "ai",
-   "ai-agent",
-   "ai-agents",
-   "code-interpreter",
-   "copilot"
-  ]
- },
- {
-  "created_at": "2025-10-21T09:16:51Z",
-  "description": "Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscrip",
-  "full_name": "superset-sh/superset",
-  "pushed_at": "2026-08-31T05:59:05Z",
-  "stars": 13562,
-  "topics": [
-   "ade",
-   "agent",
-   "agent-orchestration",
-   "ai-agents",
-   "ai-coding",
-   "claude-code"
-  ]
- },
- {
-  "created_at": "2025-02-16T13:57:00Z",
-  "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
-  "full_name": "Arindam200/awesome-ai-apps",
-  "pushed_at": "2026-08-30T12:33:10Z",
-  "stars": 13542,
-  "topics": [
-   "agents",
-   "ai",
-   "hacktoberfest",
-   "llm",
-   "mcp"
-  ]
- },
- {
-  "created_at": "2025-05-18T16:23:54Z",
-  "description": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.",
-  "full_name": "browseros-ai/BrowserOS",
-  "pushed_at": "2026-08-31T03:45:54Z",
-  "stars": 13415,
-  "topics": [
-   "agent",
-   "browser",
-   "browseros",
-   "chromium",
-   "hacktoberfest",
-   "linux"
-  ]
- },
- {
-  "created_at": "2024-03-22T18:12:25Z",
-  "description": "AI that sees your screen, listens to your conversations and tells you what to do",
-  "full_name": "BasedHardware/omi",
-  "pushed_at": "2026-08-31T10:40:03Z",
-  "stars": 13353,
-  "topics": [
-   "ai",
-   "app",
-   "bci",
-   "c",
-   "flutter",
-   "friend"
-  ]
- },
- {
-  "created_at": "2024-09-24T20:45:31Z",
-  "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
-  "full_name": "modelcontextprotocol/typescript-sdk",
-  "pushed_at": "2026-08-31T04:09:20Z",
-  "stars": 13286,
-  "topics": [
-   "mcp",
-   "mcp-client",
-   "mcp-server",
-   "typescript"
-  ]
- },
- {
-  "created_at": "2025-04-28T19:40:42Z",
-  "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Pyt",
-  "full_name": "microsoft/agent-framework",
-  "pushed_at": "2026-08-31T12:44:13Z",
-  "stars": 13241,
-  "topics": [
-   "agent-framework",
-   "agentic-ai",
-   "agents",
-   "ai",
-   "dotnet",
-   "multi-agent"
-  ]
- },
- {
-  "created_at": "2023-06-02T12:23:41Z",
-  "description": "The visual editor for React.",
-  "full_name": "puckeditor/puck",
-  "pushed_at": "2026-08-28T04:45:56Z",
-  "stars": 13234,
-  "topics": [
-   "ai",
-   "builder",
-   "drag-and-drop",
-   "draganddrop",
-   "no-code",
-   "nocode"
-  ]
- },
- {
-  "created_at": "2023-01-08T19:26:35Z",
-  "description": "🔥Highlighting the top ML papers every week.",
-  "full_name": "dair-ai/AI-Papers-of-the-Week",
-  "pushed_at": "2026-08-24T15:02:00Z",
-  "stars": 13133,
-  "topics": [
-   "ai",
-   "data-science",
-   "deeplearning",
-   "machine-learning",
-   "nlp"
-  ]
- },
- {
-  "created_at": "2023-06-20T15:30:29Z",
-  "description": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It off",
-  "full_name": "langchain4j/langchain4j",
-  "pushed_at": "2026-08-31T10:26:21Z",
-  "stars": 12984,
-  "topics": [
-   "anthropic",
-   "chatgpt",
-   "chroma",
-   "embeddings",
-   "gemini",
-   "gpt"
-  ]
- },
- {
   "created_at": "2024-08-07T15:32:09Z",
   "description": "Build voice agents with open-source models",
   "full_name": "huggingface/speech-to-speech",
   "pushed_at": "2026-08-28T08:37:18Z",
-  "stars": 12974,
+  "stars": 12975,
   "topics": [
    "ai",
    "assistant",
@@ -465,8 +33,8 @@
   "created_at": "2026-06-10T11:52:41Z",
   "description": "MiMo Code: Where Models and Agents Co-Evolve",
   "full_name": "XiaomiMiMo/MiMo-Code",
-  "pushed_at": "2026-08-31T11:43:34Z",
-  "stars": 12909,
+  "pushed_at": "2026-08-31T13:27:09Z",
+  "stars": 12908,
   "topics": [
    "ai",
    "ai-agents",
@@ -480,7 +48,7 @@
   "description": "The ultimate LLM/AI application development framework in Go.",
   "full_name": "cloudwego/eino",
   "pushed_at": "2026-08-31T12:07:25Z",
-  "stars": 12891,
+  "stars": 12893,
   "topics": [
    "ai",
    "ai-application",
@@ -495,7 +63,7 @@
   "description": "[MLsys2026 Best Paper]: https://arxiv.org/abs/2506.08276. RAG on Everything with LEANN. Enjoy 97% storage savi",
   "full_name": "StarTrail-org/LEANN",
   "pushed_at": "2026-08-30T02:40:10Z",
-  "stars": 12864,
+  "stars": 12866,
   "topics": [
    "ai",
    "faiss",
@@ -525,7 +93,7 @@
   "description": "Your AI trading terminal assistant for US stocks, commodities, forex, and crypto.",
   "full_name": "NoFxAiOS/nofx",
   "pushed_at": "2026-08-20T16:26:28Z",
-  "stars": 12789,
+  "stars": 12790,
   "topics": [
    "agentictrading",
    "ai",
@@ -539,8 +107,8 @@
   "created_at": "2023-07-05T21:02:15Z",
   "description": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
   "full_name": "The-PR-Agent/pr-agent",
-  "pushed_at": "2026-08-31T11:57:19Z",
-  "stars": 12781,
+  "pushed_at": "2026-08-31T13:32:17Z",
+  "stars": 12782,
   "topics": [
    "ai",
    "anthropic",
@@ -555,7 +123,7 @@
   "description": "Capture first. Organize later. A local-first Markdown app that turns scattered records into clear notes with A",
   "full_name": "codexu/note-gen",
   "pushed_at": "2026-08-27T23:18:20Z",
-  "stars": 12712,
+  "stars": 12711,
   "topics": [
    "agent",
    "ai-notes",
@@ -569,8 +137,8 @@
   "created_at": "2026-06-18T23:03:18Z",
   "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…",
   "full_name": "lidge-jun/opencodex",
-  "pushed_at": "2026-08-31T11:57:34Z",
-  "stars": 12688,
+  "pushed_at": "2026-08-31T13:32:15Z",
+  "stars": 12691,
   "topics": [
    "ai-gateway",
    "ai-tools",
@@ -585,7 +153,7 @@
   "description": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving acro",
   "full_name": "EverMind-AI/EverOS",
   "pushed_at": "2026-08-31T10:33:55Z",
-  "stars": 12589,
+  "stars": 12591,
   "topics": [
    "agent-memory",
    "agentic-ai",
@@ -615,7 +183,7 @@
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbin",
   "full_name": "debpalash/VoiceStudio",
   "pushed_at": "2026-08-30T17:32:03Z",
-  "stars": 12470,
+  "stars": 12499,
   "topics": [
    "ai",
    "audiobook",
@@ -630,7 +198,7 @@
   "description": "Access large language models from the command-line",
   "full_name": "simonw/llm",
   "pushed_at": "2026-08-22T17:01:27Z",
-  "stars": 12436,
+  "stars": 12435,
   "topics": [
    "ai",
    "llms",
@@ -694,6 +262,19 @@
   ]
  },
  {
+  "created_at": "2026-03-11T16:25:43Z",
+  "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context a",
+  "full_name": "nidhinjs/prompt-master",
+  "pushed_at": "2026-08-24T07:30:40Z",
+  "stars": 12112,
+  "topics": [
+   "claude-ai",
+   "claude-skills",
+   "llm",
+   "prompt-engineering"
+  ]
+ },
+ {
   "created_at": "2023-08-02T02:08:11Z",
   "description": "Retrieval and Retrieval-augmented LLMs",
   "full_name": "FlagOpen/FlagEmbedding",
@@ -709,23 +290,10 @@
   ]
  },
  {
-  "created_at": "2026-03-11T16:25:43Z",
-  "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context a",
-  "full_name": "nidhinjs/prompt-master",
-  "pushed_at": "2026-08-24T07:30:40Z",
-  "stars": 12109,
-  "topics": [
-   "claude-ai",
-   "claude-skills",
-   "llm",
-   "prompt-engineering"
-  ]
- },
- {
   "created_at": "2023-08-28T10:00:24Z",
   "description": "BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehens",
   "full_name": "dataelement/bisheng",
-  "pushed_at": "2026-08-31T12:19:26Z",
+  "pushed_at": "2026-08-31T13:17:21Z",
   "stars": 11917,
   "topics": [
    "agent",
@@ -741,7 +309,7 @@
   "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in th",
   "full_name": "ifixai-ai/iFixAi",
   "pushed_at": "2026-08-28T19:05:16Z",
-  "stars": 11872,
+  "stars": 11874,
   "topics": [
    "agent-evaluation",
    "ai",
@@ -756,7 +324,7 @@
   "description": "Self-hosted deployment platform",
   "full_name": "oblien/openship",
   "pushed_at": "2026-08-30T02:18:39Z",
-  "stars": 11861,
+  "stars": 11869,
   "topics": [
    "agents",
    "ai",
@@ -769,7 +337,7 @@
   "description": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
   "full_name": "mrexodia/ida-pro-mcp",
   "pushed_at": "2026-08-28T18:08:44Z",
-  "stars": 11714,
+  "stars": 11718,
   "topics": [
    "ai",
    "aiagent",
@@ -799,7 +367,7 @@
   "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
   "full_name": "LMCache/LMCache",
   "pushed_at": "2026-08-31T09:57:24Z",
-  "stars": 11584,
+  "stars": 11586,
   "topics": [
    "amd",
    "cuda",
@@ -813,8 +381,8 @@
   "created_at": "2025-06-25T10:41:00Z",
   "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
   "full_name": "semantica-agi/semantica",
-  "pushed_at": "2026-08-31T12:45:17Z",
-  "stars": 11477,
+  "pushed_at": "2026-08-31T13:40:42Z",
+  "stars": 11481,
   "topics": [
    "agent-memory",
    "ai",
@@ -828,8 +396,8 @@
   "created_at": "2025-03-03T23:03:09Z",
   "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
   "full_name": "cocoindex-io/cocoindex",
-  "pushed_at": "2026-08-28T22:26:54Z",
-  "stars": 11438,
+  "pushed_at": "2026-08-31T13:18:38Z",
+  "stars": 11439,
   "topics": [
    "agentic-data-framework",
    "ai",
@@ -843,8 +411,8 @@
   "created_at": "2025-12-28T18:39:26Z",
   "description": "Open-source AI Trading OS and commercial-ready multi-tenant SaaS platform — research markets, build Python str",
   "full_name": "OpenByteInc/QuantDinger",
-  "pushed_at": "2026-08-31T12:45:44Z",
-  "stars": 11262,
+  "pushed_at": "2026-08-31T13:10:38Z",
+  "stars": 11264,
   "topics": [
    "agent",
    "ai",
@@ -859,7 +427,7 @@
   "description": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring.",
   "full_name": "microsoft/promptflow",
   "pushed_at": "2026-08-26T22:27:46Z",
-  "stars": 11231,
+  "stars": 11232,
   "topics": [
    "ai",
    "ai-application-development",
@@ -874,7 +442,7 @@
   "description": "Generative UI SDK for React",
   "full_name": "tambo-ai/tambo",
   "pushed_at": "2026-08-30T09:14:15Z",
-  "stars": 11169,
+  "stars": 11168,
   "topics": [
    "agent",
    "agents",
@@ -888,8 +456,8 @@
   "created_at": "2025-07-06T09:51:27Z",
   "description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill r",
   "full_name": "MemTensor/MemOS",
-  "pushed_at": "2026-08-31T12:34:04Z",
-  "stars": 11109,
+  "pushed_at": "2026-08-31T13:42:28Z",
+  "stars": 11110,
   "topics": [
    "agent",
    "agentic-ai",
@@ -904,7 +472,7 @@
   "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows pre-b",
   "full_name": "altic-dev/FluidVoice",
   "pushed_at": "2026-08-31T06:46:46Z",
-  "stars": 11103,
+  "stars": 11104,
   "topics": [
    "ai",
    "dictation",
@@ -933,7 +501,7 @@
   "description": "Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integ",
   "full_name": "holaboss-ai/holaOS",
   "pushed_at": "2026-08-21T13:11:13Z",
-  "stars": 11084,
+  "stars": 11088,
   "topics": [
    "agent",
    "agent-harness",
@@ -948,7 +516,7 @@
   "description": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Ag",
   "full_name": "yizhiyanhua-ai/fireworks-tech-graph",
   "pushed_at": "2026-08-25T22:56:41Z",
-  "stars": 11008,
+  "stars": 11010,
   "topics": [
    "agent-workflows",
    "ai",
@@ -978,7 +546,7 @@
   "description": "利用 AI 大模型，一键解说并剪辑视频",
   "full_name": "linyqh/NarratoAI",
   "pushed_at": "2026-08-29T17:03:24Z",
-  "stars": 10936,
+  "stars": 10937,
   "topics": [
    "aiagent",
    "aiops",
@@ -1037,7 +605,7 @@
   "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that promp",
   "full_name": "cobusgreyling/loop-engineering",
   "pushed_at": "2026-08-31T08:01:41Z",
-  "stars": 10766,
+  "stars": 10768,
   "topics": [
    "agentic-ai",
    "ai-agents",
@@ -1051,8 +619,8 @@
   "created_at": "2026-04-11T07:38:18Z",
   "description": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics ",
   "full_name": "EKKOLearnAI/hermes-studio",
-  "pushed_at": "2026-08-31T12:38:10Z",
-  "stars": 10728,
+  "pushed_at": "2026-08-31T13:07:13Z",
+  "stars": 10729,
   "topics": [
    "agent",
    "ai-agent",
@@ -1112,7 +680,7 @@
   "description": "Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, ",
   "full_name": "Acly/krita-ai-diffusion",
   "pushed_at": "2026-08-28T20:55:10Z",
-  "stars": 10526,
+  "stars": 10527,
   "topics": [
    "generative-ai",
    "krita-plugin",
@@ -1168,7 +736,7 @@
   "created_at": "2026-02-15T23:27:31Z",
   "description": "Astrid is a portable, capability-secure operating system for composable software.",
   "full_name": "astrid-runtime/astrid",
-  "pushed_at": "2026-08-31T12:45:20Z",
+  "pushed_at": "2026-08-31T13:28:55Z",
   "stars": 10274,
   "topics": [
    "agent-runtime",
@@ -1184,7 +752,7 @@
   "description": "PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统，帮助你快速构建智能化的 产品文档、技术文档、FAQ、博客系统，借助大模型的力量为你提供 AI 创作、AI 问答、AI 搜索等能力。",
   "full_name": "chaitin/PandaWiki",
   "pushed_at": "2026-08-21T03:43:52Z",
-  "stars": 10172,
+  "stars": 10171,
   "topics": [
    "ai",
    "docs",
@@ -1214,7 +782,7 @@
   "description": "45+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line scri",
   "full_name": "ykdojo/claude-code-tips",
   "pushed_at": "2026-08-30T22:42:10Z",
-  "stars": 9982,
+  "stars": 9985,
   "topics": [
    "agentic",
    "agentic-ai",
@@ -1229,7 +797,7 @@
   "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
   "full_name": "cactus-compute/needle",
   "pushed_at": "2026-08-29T16:01:58Z",
-  "stars": 9840,
+  "stars": 9843,
   "topics": [
    "cactus",
    "gemini",
@@ -1243,7 +811,7 @@
   "description": "https://arxiv.org/abs/2606.28344. The end of web parsing. The beginning of scalable pixel-native search. link:",
   "full_name": "StarTrail-org/PixelRAG",
   "pushed_at": "2026-08-30T02:22:24Z",
-  "stars": 9813,
+  "stars": 9815,
   "topics": [
    "agent",
    "ai",
@@ -1269,7 +837,7 @@
   "description": "Open source MCP Servers for AWS",
   "full_name": "awslabs/mcp",
   "pushed_at": "2026-08-28T10:55:15Z",
-  "stars": 9646,
+  "stars": 9647,
   "topics": [
    "aws",
    "mcp",
@@ -1298,8 +866,8 @@
   "created_at": "2026-06-11T12:18:13Z",
   "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, an",
   "full_name": "omnigent-ai/omnigent",
-  "pushed_at": "2026-08-31T12:19:19Z",
-  "stars": 9540,
+  "pushed_at": "2026-08-31T13:15:06Z",
+  "stars": 9541,
   "topics": [
    "agent-framework",
    "agent-governance",
@@ -1329,7 +897,7 @@
   "description": "Bindu: The identity, communication, and payments layer for AI agents.",
   "full_name": "GetBindu/Bindu",
   "pushed_at": "2026-08-24T09:32:02Z",
-  "stars": 9468,
+  "stars": 9470,
   "topics": [
    "a2a",
    "agent-communication",
@@ -1373,7 +941,7 @@
   "description": "🐸 Read Frog - Language Learning & Translate | 🐸 陪读蛙 - 语言学习与翻译",
   "full_name": "mengxi-ream/read-frog",
   "pushed_at": "2026-08-30T20:59:45Z",
-  "stars": 9388,
+  "stars": 9389,
   "topics": [
    "browser-extension",
    "chinese",
@@ -1470,6 +1038,19 @@
   ]
  },
  {
+  "created_at": "2023-02-05T01:07:25Z",
+  "description": "High accuracy RAG for answering questions from scientific documents with citations",
+  "full_name": "Future-House/paper-qa",
+  "pushed_at": "2026-08-26T11:53:52Z",
+  "stars": 9133,
+  "topics": [
+   "ai",
+   "rag",
+   "science",
+   "search"
+  ]
+ },
+ {
   "created_at": "2026-04-21T18:33:12Z",
   "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
   "full_name": "crynta/terax-ai",
@@ -1482,19 +1063,6 @@
    "linux",
    "macos",
    "reactjs"
-  ]
- },
- {
-  "created_at": "2023-02-05T01:07:25Z",
-  "description": "High accuracy RAG for answering questions from scientific documents with citations",
-  "full_name": "Future-House/paper-qa",
-  "pushed_at": "2026-08-26T11:53:52Z",
-  "stars": 9132,
-  "topics": [
-   "ai",
-   "rag",
-   "science",
-   "search"
   ]
  },
  {
@@ -1547,7 +1115,7 @@
   "description": "The programming language for agents",
   "full_name": "BoundaryML/baml",
   "pushed_at": "2026-08-31T09:35:24Z",
-  "stars": 9106,
+  "stars": 9107,
   "topics": [
    "boundaryml",
    "guardrails",
@@ -1588,7 +1156,7 @@
   "description": "An AI-powered search engine with a generative UI",
   "full_name": "miurla/morphic",
   "pushed_at": "2026-08-29T02:23:48Z",
-  "stars": 9074,
+  "stars": 9075,
   "topics": [
    "generative-ai",
    "generative-ui",
@@ -1603,7 +1171,7 @@
   "description": "🫖 Status page with uptime monitoring & API monitoring as code   🫖",
   "full_name": "openstatusHQ/openstatus",
   "pushed_at": "2026-08-31T10:05:57Z",
-  "stars": 9037,
+  "stars": 9038,
   "topics": [
    "alerting",
    "incident-management",
@@ -1648,7 +1216,7 @@
   "description": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | ",
   "full_name": "adongwanai/AgentGuide",
   "pushed_at": "2026-08-25T04:23:33Z",
-  "stars": 9005,
+  "stars": 9007,
   "topics": [
    "agenticrag",
    "ai-agent",
@@ -1752,7 +1320,7 @@
   "created_at": "2025-05-05T17:16:26Z",
   "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with fle",
   "full_name": "google/adk-go",
-  "pushed_at": "2026-08-31T12:45:50Z",
+  "pushed_at": "2026-08-31T13:39:46Z",
   "stars": 8731,
   "topics": [
    "a2a",
@@ -1796,7 +1364,7 @@
   "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazi",
   "full_name": "nexu-io/html-anything",
   "pushed_at": "2026-08-23T08:53:57Z",
-  "stars": 8582,
+  "stars": 8585,
   "topics": [
    "agent-skills",
    "agentic",
@@ -1810,7 +1378,7 @@
   "created_at": "2024-12-02T10:40:06Z",
   "description": "The Open Standard for Generative UI",
   "full_name": "thesysdev/openui",
-  "pushed_at": "2026-08-31T12:45:41Z",
+  "pushed_at": "2026-08-31T13:01:44Z",
   "stars": 8493,
   "topics": [
    "agent",
@@ -1870,8 +1438,8 @@
   "created_at": "2023-03-21T19:58:16Z",
   "description": "Giving Kubernetes Superpowers to everyone",
   "full_name": "k8sgpt-ai/k8sgpt",
-  "pushed_at": "2026-08-31T04:39:29Z",
-  "stars": 8133,
+  "pushed_at": "2026-08-31T13:12:19Z",
+  "stars": 8134,
   "topics": [
    "ai",
    "devops",
@@ -1900,7 +1468,7 @@
   "created_at": "2026-02-27T12:48:35Z",
   "description": "AI-native design editor. Open-source Figma alternative.",
   "full_name": "open-pencil/open-pencil",
-  "pushed_at": "2026-08-31T12:06:18Z",
+  "pushed_at": "2026-08-31T13:31:46Z",
   "stars": 8079,
   "topics": [
    "ai",
@@ -1915,7 +1483,7 @@
   "created_at": "2023-06-15T12:38:06Z",
   "description": "LMDeploy is a toolkit for compressing, deploying, and serving LLMs.",
   "full_name": "InternLM/lmdeploy",
-  "pushed_at": "2026-08-31T03:46:18Z",
+  "pushed_at": "2026-08-31T12:58:48Z",
   "stars": 8036,
   "topics": [
    "codellama",
@@ -1989,7 +1557,7 @@
   "description": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale L",
   "full_name": "rocketride-org/rocketride-server",
   "pushed_at": "2026-08-31T11:53:46Z",
-  "stars": 7574,
+  "stars": 7578,
   "topics": [
    "ai",
    "cpp",
@@ -2032,7 +1600,7 @@
   "created_at": "2022-09-27T16:33:35Z",
   "description": "Connect Your Agents And Harnesses With Any Provider 🦚",
   "full_name": "mnfst/manifest",
-  "pushed_at": "2026-08-31T11:54:08Z",
+  "pushed_at": "2026-08-31T13:21:23Z",
   "stars": 7490,
   "topics": [
    "ai",
@@ -2048,7 +1616,7 @@
   "description": "The most powerful AI agent and AI chat software on Android/Operit是一款Android上能力最为强大、发展最久的AI Agent",
   "full_name": "AAswordman/Operit",
   "pushed_at": "2026-08-31T12:40:59Z",
-  "stars": 7427,
+  "stars": 7428,
   "topics": [
    "agent",
    "ai",
@@ -2078,7 +1646,7 @@
   "description": "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM cl",
   "full_name": "firecrawl/firecrawl-mcp-server",
   "pushed_at": "2026-08-31T07:03:43Z",
-  "stars": 7357,
+  "stars": 7358,
   "topics": [
    "batch-processing",
    "claude",
@@ -2107,7 +1675,7 @@
   "description": "A slide framework built for agents.",
   "full_name": "1weiho/open-slide",
   "pushed_at": "2026-08-29T17:46:23Z",
-  "stars": 7328,
+  "stars": 7329,
   "topics": [
    "agent",
    "react",
@@ -2119,7 +1687,7 @@
   "description": "RikkaHub is an Android APP that supports for multiple LLM providers.",
   "full_name": "rikkahub/rikkahub",
   "pushed_at": "2026-08-31T11:44:35Z",
-  "stars": 7302,
+  "stars": 7306,
   "topics": [
    "agent",
    "android",
@@ -2134,7 +1702,7 @@
   "description": "Transcribe on your own!",
   "full_name": "thewh1teagle/vibe",
   "pushed_at": "2026-08-28T17:44:34Z",
-  "stars": 7241,
+  "stars": 7242,
   "topics": [
    "ai",
    "cross-platform",
@@ -2149,7 +1717,7 @@
   "description": "List of Permanent Free LLM API  (API Keys)",
   "full_name": "mnfst/awesome-free-llm-apis",
   "pushed_at": "2026-08-21T05:32:48Z",
-  "stars": 7239,
+  "stars": 7240,
   "topics": [
    "ai-agents",
    "anthropic",
@@ -2189,7 +1757,7 @@
   "created_at": "2024-02-21T10:34:33Z",
   "description": "LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows",
   "full_name": "Zipstack/unstract",
-  "pushed_at": "2026-08-31T12:19:19Z",
+  "pushed_at": "2026-08-31T13:36:46Z",
   "stars": 7182,
   "topics": [
    "ai-agents",
@@ -2205,7 +1773,7 @@
   "description": "GLM-5: From Vibe Coding to Agentic Engineering",
   "full_name": "zai-org/GLM-5",
   "pushed_at": "2026-08-27T13:22:56Z",
-  "stars": 7114,
+  "stars": 7115,
   "topics": [
    "agentic-ai",
    "coding",
@@ -2247,8 +1815,8 @@
   "created_at": "2025-05-14T19:59:51Z",
   "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScr",
   "full_name": "strands-agents/harness-sdk",
-  "pushed_at": "2026-08-31T12:19:44Z",
-  "stars": 7078,
+  "pushed_at": "2026-08-31T13:20:57Z",
+  "stars": 7080,
   "topics": [
    "agent-framework",
    "agentic",
@@ -2278,7 +1846,7 @@
   "description": "Plano is an AI-native proxy server and data plane for agentic apps. Smart LLM routing, observability, agent or",
   "full_name": "katanemo/plano",
   "pushed_at": "2026-08-19T19:29:08Z",
-  "stars": 7025,
+  "stars": 7027,
   "topics": [
    "ai-gateway",
    "ai-gateway-support",
@@ -2293,7 +1861,7 @@
   "description": "The automatic work journal/time tracker. Privately turns your screen into a timeline of what you actually acco",
   "full_name": "JerryZLiu/Dayflow",
   "pushed_at": "2026-08-19T08:54:53Z",
-  "stars": 6961,
+  "stars": 6962,
   "topics": [
    "ai",
    "chatgpt",
@@ -2338,7 +1906,7 @@
   "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, ",
   "full_name": "FareedKhan-dev/kimi-k3-in-c",
   "pushed_at": "2026-08-26T07:36:53Z",
-  "stars": 6889,
+  "stars": 6895,
   "topics": [
    "avx2",
    "c99",
@@ -2349,26 +1917,11 @@
   ]
  },
  {
-  "created_at": "2025-06-28T20:18:15Z",
-  "description": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge c",
-  "full_name": "SWE-agent/mini-swe-agent",
-  "pushed_at": "2026-08-24T22:03:16Z",
-  "stars": 6873,
-  "topics": [
-   "agent",
-   "agentic-ai",
-   "agentic-ai-cli",
-   "ai",
-   "ai-agent",
-   "textual"
-  ]
- },
- {
   "created_at": "2026-07-19T11:44:41Z",
   "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 mo",
   "full_name": "Vincentwei1021/video-shotcraft",
   "pushed_at": "2026-08-30T15:22:22Z",
-  "stars": 6867,
+  "stars": 6877,
   "topics": [
    "agent-skills",
    "ai-agents",
@@ -2379,11 +1932,26 @@
   ]
  },
  {
+  "created_at": "2025-06-28T20:18:15Z",
+  "description": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge c",
+  "full_name": "SWE-agent/mini-swe-agent",
+  "pushed_at": "2026-08-24T22:03:16Z",
+  "stars": 6875,
+  "topics": [
+   "agent",
+   "agentic-ai",
+   "agentic-ai-cli",
+   "ai",
+   "ai-agent",
+   "textual"
+  ]
+ },
+ {
   "created_at": "2025-05-13T02:27:53Z",
   "description": "MCP Server for Computer Use in Windows",
   "full_name": "CursorTouch/Windows-MCP",
   "pushed_at": "2026-08-29T03:26:27Z",
-  "stars": 6858,
+  "stars": 6859,
   "topics": [
    "ai",
    "desktop",
@@ -2398,7 +1966,7 @@
   "description": "TypeScript AI agent orchestration framework with dynamic workflows. Describe the goal, not the graph: a coordi",
   "full_name": "open-multi-agent/open-multi-agent",
   "pushed_at": "2026-08-31T09:36:22Z",
-  "stars": 6850,
+  "stars": 6851,
   "topics": [
    "agent-framework",
    "agent-orchestration",
@@ -2427,7 +1995,7 @@
   "created_at": "2026-05-06T17:43:05Z",
   "description": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
   "full_name": "opensquilla/opensquilla",
-  "pushed_at": "2026-08-31T12:25:20Z",
+  "pushed_at": "2026-08-31T13:29:34Z",
   "stars": 6819,
   "topics": [
    "agent",
@@ -2527,7 +2095,7 @@
   "created_at": "2026-02-03T17:32:00Z",
   "description": "The agent-native LLM router for autonomous agents. Every frontier model behind one wallet, <1ms local routing,",
   "full_name": "BlockRunAI/ClawRouter",
-  "pushed_at": "2026-08-31T12:29:26Z",
+  "pushed_at": "2026-08-31T13:26:03Z",
   "stars": 6576,
   "topics": [
    "ai",
@@ -2543,7 +2111,7 @@
   "description": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with",
   "full_name": "WenyuChiou/awesome-agentic-ai-zh",
   "pushed_at": "2026-08-31T11:16:03Z",
-  "stars": 6555,
+  "stars": 6558,
   "topics": [
    "agentic-ai",
    "agentic-workflows",
@@ -2587,7 +2155,7 @@
   "description": "Open-source framework for building agentic apps in JavaScript, Go, Dart, and Python, built and used in product",
   "full_name": "genkit-ai/genkit",
   "pushed_at": "2026-08-31T09:27:36Z",
-  "stars": 6388,
+  "stars": 6389,
   "topics": [
    "agents",
    "ai",
@@ -2602,7 +2170,7 @@
   "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS ",
   "full_name": "getsentry/XcodeBuildMCP",
   "pushed_at": "2026-08-31T03:40:32Z",
-  "stars": 6314,
+  "stars": 6315,
   "topics": [
    "mcp",
    "mcp-server",
@@ -2616,7 +2184,7 @@
   "created_at": "2023-02-09T18:22:52Z",
   "description": "This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-traine",
   "full_name": "promptslab/Awesome-Prompt-Engineering",
-  "pushed_at": "2026-08-30T11:43:58Z",
+  "pushed_at": "2026-08-31T13:23:51Z",
   "stars": 6301,
   "topics": [
    "chatgpt",
@@ -2646,8 +2214,8 @@
   "created_at": "2026-03-23T09:12:28Z",
   "description": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code det",
   "full_name": "repowise-dev/repowise",
-  "pushed_at": "2026-08-31T12:33:06Z",
-  "stars": 6275,
+  "pushed_at": "2026-08-31T13:15:09Z",
+  "stars": 6276,
   "topics": [
    "ai",
    "code-complexity",
@@ -2662,7 +2230,7 @@
   "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real",
   "full_name": "mobile-next/mobile-mcp",
   "pushed_at": "2026-08-31T12:43:25Z",
-  "stars": 6263,
+  "stars": 6266,
   "topics": [
    "agent",
    "android",
@@ -2722,7 +2290,7 @@
   "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability e",
   "full_name": "microsoft/agent-governance-toolkit",
   "pushed_at": "2026-08-31T09:31:30Z",
-  "stars": 6164,
+  "stars": 6165,
   "topics": [
    "agent-framework",
    "ai-agents",
@@ -2764,7 +2332,7 @@
   "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra sc",
   "full_name": "Tencent/AI-Infra-Guard",
   "pushed_at": "2026-08-31T02:28:33Z",
-  "stars": 6089,
+  "stars": 6090,
   "topics": [
    "agent",
    "agent-security",
@@ -2779,7 +2347,7 @@
   "description": "Zero-Config Code Flow for Claude code & Codex",
   "full_name": "UfoMiao/zcf",
   "pushed_at": "2026-08-31T03:02:03Z",
-  "stars": 6079,
+  "stars": 6078,
   "topics": [
    "agent",
    "ai",
@@ -2824,7 +2392,7 @@
   "description": "Fast and Accurate Code Search for Agents. Uses 99% fewer tokens than grep+read",
   "full_name": "MinishLab/semble",
   "pushed_at": "2026-08-26T04:48:21Z",
-  "stars": 5970,
+  "stars": 5971,
   "topics": [
    "agents",
    "code-search",
@@ -2838,7 +2406,7 @@
   "created_at": "2026-02-12T09:56:20Z",
   "description": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web resear",
   "full_name": "netease-youdao/LobsterAI",
-  "pushed_at": "2026-08-31T12:13:07Z",
+  "pushed_at": "2026-08-31T13:32:01Z",
   "stars": 5968,
   "topics": [
    "agent",
@@ -2854,7 +2422,7 @@
   "description": "Quantization, kernels, runtime and inference engine for mobiles, wearables, smart home and robots. ",
   "full_name": "cactus-compute/cactus",
   "pushed_at": "2026-08-26T16:45:30Z",
-  "stars": 5958,
+  "stars": 5959,
   "topics": [
    "ai",
    "android",
@@ -2868,7 +2436,7 @@
   "created_at": "2026-01-07T22:27:34Z",
   "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by ag",
   "full_name": "Dicklesworthstone/destructive_command_guard",
-  "pushed_at": "2026-08-31T04:50:18Z",
+  "pushed_at": "2026-08-31T13:29:47Z",
   "stars": 5880,
   "topics": [
    "ai-agents",
@@ -2913,7 +2481,7 @@
   "created_at": "2025-04-28T10:44:33Z",
   "description": "Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineering princi",
   "full_name": "ModelEngine-Group/nexent",
-  "pushed_at": "2026-08-31T12:46:00Z",
+  "pushed_at": "2026-08-31T13:01:32Z",
   "stars": 5842,
   "topics": [
    "agent",
@@ -2929,7 +2497,7 @@
   "description": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker ",
   "full_name": "agent-infra/sandbox",
   "pushed_at": "2026-08-25T08:10:03Z",
-  "stars": 5819,
+  "stars": 5820,
   "topics": [
    "agent",
    "all-in-one",
@@ -2944,7 +2512,7 @@
   "description": "A workshop that teaches you how to build your own coding agent. Similar to Roo code, Cline, Amp, Cursor, Winds",
   "full_name": "ghuntley/how-to-build-a-coding-agent",
   "pushed_at": "2026-08-29T11:53:33Z",
-  "stars": 5816,
+  "stars": 5817,
   "topics": [
    "agent",
    "ai",
@@ -3014,7 +2582,7 @@
   "description": "Developer Control Plane for your AI Agents",
   "full_name": "Nasiko-Labs/nasiko",
   "pushed_at": "2026-08-31T04:38:02Z",
-  "stars": 5773,
+  "stars": 5776,
   "topics": [
    "agent-security",
    "ai",
@@ -3043,8 +2611,8 @@
   "created_at": "2026-02-17T10:51:46Z",
   "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. De",
   "full_name": "ZSeven-W/openpencil",
-  "pushed_at": "2026-08-30T14:16:48Z",
-  "stars": 5749,
+  "pushed_at": "2026-08-31T13:23:46Z",
+  "stars": 5750,
   "topics": [
    "agent",
    "agent-team",
@@ -3059,7 +2627,7 @@
   "description": "Agent OS: the agent gets smarter on its own. We just hold the line: the grading command and expected result ne",
   "full_name": "Q00/ouroboros",
   "pushed_at": "2026-08-31T10:22:35Z",
-  "stars": 5736,
+  "stars": 5738,
   "topics": [
    "agent-os",
    "agentic-ai",
@@ -3088,7 +2656,7 @@
   "created_at": "2025-06-24T00:26:28Z",
   "description": "Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by provi",
   "full_name": "coze-dev/coze-loop",
-  "pushed_at": "2026-08-31T12:45:22Z",
+  "pushed_at": "2026-08-31T13:40:52Z",
   "stars": 5705,
   "topics": [
    "agent",
@@ -3134,7 +2702,7 @@
   "description": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NP",
   "full_name": "lemonade-sdk/lemonade",
   "pushed_at": "2026-08-31T12:34:06Z",
-  "stars": 5548,
+  "stars": 5551,
   "topics": [
    "ai",
    "amd",
@@ -3149,7 +2717,7 @@
   "description": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms ",
   "full_name": "browser-act/skills",
   "pushed_at": "2026-08-24T14:56:52Z",
-  "stars": 5529,
+  "stars": 5531,
   "topics": [
    "agent-infrastructure",
    "ai-agents",
@@ -3194,7 +2762,7 @@
   "description": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerc",
   "full_name": "apify/apify-mcp-server",
   "pushed_at": "2026-08-27T14:49:23Z",
-  "stars": 5476,
+  "stars": 5482,
   "topics": [
    "agents",
    "ai",
@@ -3206,8 +2774,8 @@
   "created_at": "2026-06-29T10:49:36Z",
   "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI",
   "full_name": "oomol-lab/open-connector",
-  "pushed_at": "2026-08-31T10:45:52Z",
-  "stars": 5452,
+  "pushed_at": "2026-08-31T13:42:56Z",
+  "stars": 5453,
   "topics": [
    "agent-tools",
    "ai-agents",
@@ -3222,7 +2790,7 @@
   "description": "AI-powered manga translator, written in Rust.",
   "full_name": "koharu-rs/koharu",
   "pushed_at": "2026-08-31T02:38:38Z",
-  "stars": 5442,
+  "stars": 5444,
   "topics": [
    "computer-vision",
    "deep-learning",
@@ -3250,7 +2818,7 @@
   "description": "Autonomous Hacking Agent for Red Team",
   "full_name": "PurpleAILAB/Decepticon",
   "pushed_at": "2026-08-30T13:22:58Z",
-  "stars": 5368,
+  "stars": 5369,
   "topics": [
    "agent",
    "ai",
@@ -3280,7 +2848,7 @@
   "description": "Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses.",
   "full_name": "huangruiteng/loopx",
   "pushed_at": "2026-08-31T02:49:04Z",
-  "stars": 5346,
+  "stars": 5347,
   "topics": [
    "agent-control-plane",
    "agent-harness",
@@ -3295,7 +2863,7 @@
   "description": "Remove visible and invisible AI watermarks and provenance metadata from images and video. Python library and C",
   "full_name": "wiltodelta/remove-ai-watermarks",
   "pushed_at": "2026-08-31T03:02:16Z",
-  "stars": 5341,
+  "stars": 5342,
   "topics": [
    "ai-watermark",
    "c2pa",
@@ -3325,7 +2893,7 @@
   "description": "Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex ",
   "full_name": "Galaxy-Dawn/claude-scholar",
   "pushed_at": "2026-08-27T10:20:31Z",
-  "stars": 5274,
+  "stars": 5277,
   "topics": [
    "academic-research",
    "ai-agents",
@@ -3336,10 +2904,25 @@
   ]
  },
  {
+  "created_at": "2026-02-09T13:14:58Z",
+  "description": "Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and",
+  "full_name": "Osmantic/ODS",
+  "pushed_at": "2026-08-31T13:34:55Z",
+  "stars": 5253,
+  "topics": [
+   "ai-agents",
+   "amd",
+   "comfyui",
+   "docker",
+   "llama-cpp",
+   "llm"
+  ]
+ },
+ {
   "created_at": "2024-04-29T05:43:58Z",
   "description": "Open-Source Personal Cloud OS for Always-On Agents",
   "full_name": "beclab/Olares",
-  "pushed_at": "2026-08-31T09:53:14Z",
+  "pushed_at": "2026-08-31T13:35:44Z",
   "stars": 5243,
   "topics": [
    "agentic-ai",
@@ -3366,21 +2949,6 @@
   ]
  },
  {
-  "created_at": "2026-02-09T13:14:58Z",
-  "description": "Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and",
-  "full_name": "Osmantic/ODS",
-  "pushed_at": "2026-08-31T12:40:16Z",
-  "stars": 5219,
-  "topics": [
-   "ai-agents",
-   "amd",
-   "comfyui",
-   "docker",
-   "llama-cpp",
-   "llm"
-  ]
- },
- {
   "created_at": "2026-04-14T06:21:51Z",
   "description": "Modular SenseNova skills for building AI-powered office assistants and productivity workflows",
   "full_name": "OpenSenseNova/SenseNova-Skills",
@@ -3399,8 +2967,8 @@
   "created_at": "2026-07-03T13:44:21Z",
   "description": "Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understa",
   "full_name": "trailhq/Graft",
-  "pushed_at": "2026-08-31T12:37:49Z",
-  "stars": 5209,
+  "pushed_at": "2026-08-31T13:36:58Z",
+  "stars": 5210,
   "topics": [
    "ai-agents",
    "anthropic",
@@ -3445,7 +3013,7 @@
   "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 ",
   "full_name": "internet-court/internet-court-skill",
   "pushed_at": "2026-08-19T15:00:54Z",
-  "stars": 5154,
+  "stars": 5168,
   "topics": [
    "a2a",
    "adjudication",
@@ -3460,7 +3028,7 @@
   "description": "Enterprise-grade, local-first Agent Workbench for people and agent teams. A unified multi-engine workspace for",
   "full_name": "Devin-AXIS/iPolloWork",
   "pushed_at": "2026-08-31T11:43:00Z",
-  "stars": 5153,
+  "stars": 5154,
   "topics": [
    "agent-collaboration",
    "agent-skills",
@@ -3475,7 +3043,7 @@
   "description": "⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & e",
   "full_name": "looplj/axonhub",
   "pushed_at": "2026-08-30T00:47:01Z",
-  "stars": 5134,
+  "stars": 5135,
   "topics": [
    "agent",
    "agents",
@@ -3505,7 +3073,7 @@
   "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Curso",
   "full_name": "tech-leads-club/agent-skills",
   "pushed_at": "2026-08-30T11:30:32Z",
-  "stars": 5102,
+  "stars": 5104,
   "topics": [
    "agent",
    "ai",
@@ -3549,7 +3117,7 @@
   "description": "CADAM is the open source text-to-CAD web application",
   "full_name": "Adam-CAD/CADAM",
   "pushed_at": "2026-08-26T22:23:56Z",
-  "stars": 5058,
+  "stars": 5060,
   "topics": [
    "agents",
    "ai",
@@ -3563,7 +3131,7 @@
   "created_at": "2024-01-10T12:25:00Z",
   "description": "AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently.",
   "full_name": "Marker-Inc-Korea/AutoRAG",
-  "pushed_at": "2026-08-31T12:46:23Z",
+  "pushed_at": "2026-08-31T13:06:42Z",
   "stars": 5056,
   "topics": [
    "analysis",
@@ -3631,8 +3199,8 @@
   "created_at": "2026-07-23T09:16:13Z",
   "description": "The open-source agent harness - the runtime layer that turns an LLM into a working agent.",
   "full_name": "truefoundry/trueforge",
-  "pushed_at": "2026-08-31T12:40:26Z",
-  "stars": 4967,
+  "pushed_at": "2026-08-31T13:27:04Z",
+  "stars": 4969,
   "topics": [
    "agent",
    "agentic-ai",
@@ -3661,7 +3229,7 @@
   "description": "Exa MCP for web search and web crawling!",
   "full_name": "exa-labs/exa-mcp-server",
   "pushed_at": "2026-08-21T04:44:51Z",
-  "stars": 4947,
+  "stars": 4948,
   "topics": [
    "code-search",
    "codesearch",
@@ -3675,7 +3243,7 @@
   "created_at": "2023-05-09T01:46:51Z",
   "description": "More than just IM 不只是即时通讯(IM)",
   "full_name": "WuKongIM/WuKongIM",
-  "pushed_at": "2026-08-31T12:38:41Z",
+  "pushed_at": "2026-08-31T13:43:48Z",
   "stars": 4927,
   "topics": [
    "agent",
@@ -3703,8 +3271,8 @@
   "created_at": "2025-06-16T14:31:57Z",
   "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI ",
   "full_name": "vitali87/code-graph-rag",
-  "pushed_at": "2026-08-31T11:54:08Z",
-  "stars": 4892,
+  "pushed_at": "2026-08-31T13:43:53Z",
+  "stars": 4894,
   "topics": [
    "ai",
    "ast",
@@ -3718,8 +3286,8 @@
   "created_at": "2026-06-16T10:51:20Z",
   "description": "The Open Framework for Building Agents",
   "full_name": "vercel/eve",
-  "pushed_at": "2026-08-31T09:35:11Z",
-  "stars": 4884,
+  "pushed_at": "2026-08-31T13:35:51Z",
+  "stars": 4885,
   "topics": [
    "agent",
    "framework",
@@ -3777,7 +3345,7 @@
   "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no",
   "full_name": "KnockOutEZ/wigolo",
   "pushed_at": "2026-08-31T11:34:35Z",
-  "stars": 4796,
+  "stars": 4798,
   "topics": [
    "agent",
    "ai",
@@ -3805,7 +3373,7 @@
   "description": "🦛 CHONK docs with Chonkie ✨ — The lightweight ingestion library for fast, efficient and robust RAG pipelines",
   "full_name": "feyninc/chonkie",
   "pushed_at": "2026-08-26T18:50:39Z",
-  "stars": 4713,
+  "stars": 4714,
   "topics": [
    "ai",
    "chonkie",
@@ -3820,7 +3388,7 @@
   "description": "Next Generation Agentic Proxy for AI Agents and MCP servers",
   "full_name": "agentgateway/agentgateway",
   "pushed_at": "2026-08-31T12:18:11Z",
-  "stars": 4654,
+  "stars": 4655,
   "topics": [
    "agents",
    "ai",
@@ -3834,8 +3402,8 @@
   "created_at": "2023-04-26T09:54:28Z",
   "description": "Agenta is a workspace where you and your team build agents and automations.",
   "full_name": "Agenta-AI/agenta",
-  "pushed_at": "2026-08-31T12:24:20Z",
-  "stars": 4653,
+  "pushed_at": "2026-08-31T13:14:56Z",
+  "stars": 4654,
   "topics": [
    "agent-builder",
    "agent-observability",
@@ -3879,7 +3447,7 @@
   "created_at": "2022-10-01T08:46:39Z",
   "description": "Shell Superpowers for AI Agents.",
   "full_name": "x-cmd/x-cmd",
-  "pushed_at": "2026-08-29T04:08:21Z",
+  "pushed_at": "2026-08-31T13:24:17Z",
   "stars": 4626,
   "topics": [
    "agent",
@@ -3909,7 +3477,7 @@
   "created_at": "2026-03-23T16:02:09Z",
   "description": "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds t",
   "full_name": "mvanhorn/cli-printing-press",
-  "pushed_at": "2026-08-31T12:45:21Z",
+  "pushed_at": "2026-08-31T13:30:51Z",
   "stars": 4587,
   "topics": [
    "ai-agents",
@@ -3921,11 +3489,26 @@
   ]
  },
  {
+  "created_at": "2026-01-26T21:48:07Z",
+  "description": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, Cl",
+  "full_name": "TabularisDB/tabularis",
+  "pushed_at": "2026-08-31T10:20:53Z",
+  "stars": 4580,
+  "topics": [
+   "ai-agent",
+   "ai-assistant",
+   "cross-platform",
+   "database-client",
+   "database-gui",
+   "database-tool"
+  ]
+ },
+ {
   "created_at": "2026-02-28T21:41:41Z",
   "description": "A self-organizing Obsidian vault that gives AI coding agents persistent memory. Claude Code, Codex CLI, Gemini",
   "full_name": "breferrari/obsidian-mind",
   "pushed_at": "2026-08-24T10:57:37Z",
-  "stars": 4580,
+  "stars": 4579,
   "topics": [
    "ai-agents",
    "claude-code",
@@ -3951,26 +3534,11 @@
   ]
  },
  {
-  "created_at": "2026-01-26T21:48:07Z",
-  "description": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 15+ more databases like DuckDB, Cl",
-  "full_name": "TabularisDB/tabularis",
-  "pushed_at": "2026-08-31T10:20:53Z",
-  "stars": 4577,
-  "topics": [
-   "ai-agent",
-   "ai-assistant",
-   "cross-platform",
-   "database-client",
-   "database-gui",
-   "database-tool"
-  ]
- },
- {
   "created_at": "2025-10-11T11:19:21Z",
   "description": "DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！",
   "full_name": "ruc-datalab/DeepAnalyze",
   "pushed_at": "2026-08-30T08:07:06Z",
-  "stars": 4575,
+  "stars": 4577,
   "topics": [
    "agent",
    "agentic",
@@ -4011,6 +3579,21 @@
   ]
  },
  {
+  "created_at": "2023-10-14T16:15:40Z",
+  "description": "【三年面试五年模拟】AIGC/LLM/AI Agent算法工程师面试资源平台。涵盖AIGC、LLM大模型、AI Agent、具身智能、传统深度学习、计算机视觉、自然语言处理、自动驾驶、机器学习、强化学习、大数据挖掘、世界",
+  "full_name": "WeThinkIn/AIGC-Interview-Book",
+  "pushed_at": "2026-08-31T11:33:56Z",
+  "stars": 4518,
+  "topics": [
+   "ai-agent",
+   "aigc",
+   "computer-vision",
+   "deep-learning",
+   "interview",
+   "interview-preparation"
+  ]
+ },
+ {
   "created_at": "2024-06-21T06:24:53Z",
   "description": "SwarmUI (formerly StableSwarmUI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making po",
   "full_name": "mcmonkeyprojects/SwarmUI",
@@ -4026,26 +3609,11 @@
   ]
  },
  {
-  "created_at": "2023-10-14T16:15:40Z",
-  "description": "【三年面试五年模拟】AIGC/LLM/AI Agent算法工程师面试资源平台。涵盖AIGC、LLM大模型、AI Agent、具身智能、传统深度学习、计算机视觉、自然语言处理、自动驾驶、机器学习、强化学习、大数据挖掘、世界",
-  "full_name": "WeThinkIn/AIGC-Interview-Book",
-  "pushed_at": "2026-08-31T11:33:56Z",
-  "stars": 4517,
-  "topics": [
-   "ai-agent",
-   "aigc",
-   "computer-vision",
-   "deep-learning",
-   "interview",
-   "interview-preparation"
-  ]
- },
- {
   "created_at": "2025-03-10T18:17:41Z",
   "description": "The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft",
   "full_name": "modelcontextprotocol/csharp-sdk",
   "pushed_at": "2026-08-27T16:20:34Z",
-  "stars": 4501,
+  "stars": 4502,
   "topics": [
    "csharp",
    "dotnet",
@@ -4089,7 +3657,7 @@
   "created_at": "2024-02-07T01:06:25Z",
   "description": "Give agents an operating system as a library. Runs in your existing backend – no sandboxes, VMs, or SaaS. Powe",
   "full_name": "rivet-dev/agentos",
-  "pushed_at": "2026-08-31T11:23:23Z",
+  "pushed_at": "2026-08-31T13:42:40Z",
   "stars": 4439,
   "topics": [
    "agent",
@@ -4119,7 +3687,7 @@
   "created_at": "2023-03-24T16:25:01Z",
   "description": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make ",
   "full_name": "gptme/gptme",
-  "pushed_at": "2026-08-31T08:01:57Z",
+  "pushed_at": "2026-08-31T13:33:25Z",
   "stars": 4403,
   "topics": [
    "agent",
@@ -4149,8 +3717,8 @@
   "created_at": "2025-05-08T08:16:59Z",
   "description": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified e",
   "full_name": "IBM/mcp-context-forge",
-  "pushed_at": "2026-08-31T12:42:30Z",
-  "stars": 4393,
+  "pushed_at": "2026-08-31T13:43:37Z",
+  "stars": 4394,
   "topics": [
    "agents",
    "ai",
@@ -4177,7 +3745,7 @@
   "created_at": "2023-09-20T16:47:58Z",
   "description": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Pri",
   "full_name": "intuitem/ciso-assistant-community",
-  "pushed_at": "2026-08-31T10:34:21Z",
+  "pushed_at": "2026-08-31T13:45:04Z",
   "stars": 4384,
   "topics": [
    "audit",
@@ -4222,8 +3790,8 @@
   "created_at": "2026-01-30T18:41:54Z",
   "description": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, A",
   "full_name": "callstack/agent-device",
-  "pushed_at": "2026-08-31T12:33:08Z",
-  "stars": 4295,
+  "pushed_at": "2026-08-31T13:44:14Z",
+  "stars": 4296,
   "topics": [
    "adb",
    "agentic-ai",
@@ -4253,7 +3821,7 @@
   "description": "MongoDB's Generative AI Showcase: an exhaustive collection of examples and sample applications covering Retrie",
   "full_name": "mongodb-developer/GenAI-Showcase",
   "pushed_at": "2026-08-21T16:42:58Z",
-  "stars": 4261,
+  "stars": 4262,
   "topics": [
    "agents",
    "artificial-intelligence",
@@ -4282,7 +3850,7 @@
   "created_at": "2025-07-15T12:07:55Z",
   "description": "Enterprise AI Platform with guardrails, MCP registry, gateway & orchestrator",
   "full_name": "archestra-ai/archestra",
-  "pushed_at": "2026-08-31T12:42:40Z",
+  "pushed_at": "2026-08-31T12:57:59Z",
   "stars": 4236,
   "topics": [
    "a2a",
@@ -4313,7 +3881,7 @@
   "description": "⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-h",
   "full_name": "SwanHubX/SwanLab",
   "pushed_at": "2026-08-29T12:27:17Z",
-  "stars": 4184,
+  "stars": 4185,
   "topics": [
    "ai-infra",
    "data-science",
@@ -4369,6 +3937,21 @@
   ]
  },
  {
+  "created_at": "2025-11-08T15:18:27Z",
+  "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together w",
+  "full_name": "macro-inc/macro",
+  "pushed_at": "2026-08-31T13:40:28Z",
+  "stars": 4137,
+  "topics": [
+   "agent",
+   "ai",
+   "ai-agents",
+   "all-in-one",
+   "crm",
+   "crm-system"
+  ]
+ },
+ {
   "created_at": "2026-03-03T04:58:21Z",
   "description": "Your First AI Agents Company",
   "full_name": "dataelement/Clawith",
@@ -4382,18 +3965,443 @@
   ]
  },
  {
-  "created_at": "2025-11-08T15:18:27Z",
-  "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together w",
-  "full_name": "macro-inc/macro",
-  "pushed_at": "2026-08-31T02:55:39Z",
-  "stars": 4134,
+  "created_at": "2023-04-19T03:03:52Z",
+  "description": "A Python package for segmenting geospatial data with the Segment Anything Model (SAM)",
+  "full_name": "opengeos/segment-geospatial",
+  "pushed_at": "2026-08-24T20:37:32Z",
+  "stars": 4129,
+  "topics": [
+   "artificial-intelligence",
+   "deep-learning",
+   "geopython",
+   "geospatial",
+   "machine-learning",
+   "segment-anything"
+  ]
+ },
+ {
+  "created_at": "2025-04-29T02:37:54Z",
+  "description": "My Python scripts to make high-quality figures for publications in top AI conferences and journals.",
+  "full_name": "ChenLiu-1996/figures4papers",
+  "pushed_at": "2026-08-20T17:51:56Z",
+  "stars": 4118,
+  "topics": [
+   "acl",
+   "cvpr",
+   "eccv",
+   "emnlp",
+   "figures",
+   "iccv"
+  ]
+ },
+ {
+  "created_at": "2023-04-16T20:47:28Z",
+  "description": "Harness LLMs with Multi-Agent Programming",
+  "full_name": "langroid/langroid",
+  "pushed_at": "2026-08-31T11:09:13Z",
+  "stars": 4101,
+  "topics": [
+   "agents",
+   "ai",
+   "chatgpt",
+   "function-calling",
+   "gpt",
+   "gpt-4"
+  ]
+ },
+ {
+  "created_at": "2026-02-20T11:05:01Z",
+  "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+  "full_name": "MakazhanAlpamys/Soup",
+  "pushed_at": "2026-08-31T13:38:39Z",
+  "stars": 4091,
+  "topics": [
+   "cli",
+   "consumer-gpu",
+   "dpo",
+   "fine-tuning",
+   "gguf",
+   "huggingface"
+  ]
+ },
+ {
+  "created_at": "2026-05-13T00:00:28Z",
+  "description": "🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from s",
+  "full_name": "microsoft/flint-chart",
+  "pushed_at": "2026-08-29T04:34:25Z",
+  "stars": 4077,
+  "topics": [
+   "ai-agents",
+   "charting-library",
+   "data-visualization",
+   "mcp-server"
+  ]
+ },
+ {
+  "created_at": "2026-01-15T08:49:38Z",
+  "description": "Run multiple AI models against the same research, design, or coding task. Surface disagreements before you shi",
+  "full_name": "nyldn/claude-octopus",
+  "pushed_at": "2026-08-31T06:09:57Z",
+  "stars": 4023,
+  "topics": [
+   "ai-agents",
+   "ai-orchestration",
+   "claude-code",
+   "claude-code-plugin",
+   "codex",
+   "copilot"
+  ]
+ },
+ {
+  "created_at": "2026-05-25T11:06:35Z",
+  "description": "ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans ou",
+  "full_name": "UditAkhourii/adhd",
+  "pushed_at": "2026-08-29T17:18:10Z",
+  "stars": 4005,
+  "topics": [
+   "adhd",
+   "agents",
+   "ai",
+   "ai-agents",
+   "brainstorm",
+   "chain-of-thought"
+  ]
+ },
+ {
+  "created_at": "2025-10-13T18:51:41Z",
+  "description": "A modular Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents in minutes.",
+  "full_name": "GiovanniPasq/agentic-rag-for-dummies",
+  "pushed_at": "2026-08-30T10:19:02Z",
+  "stars": 3991,
+  "topics": [
+   "agent",
+   "agentic-ai",
+   "agentic-rag",
+   "agents",
+   "ai-agents",
+   "bm25"
+  ]
+ },
+ {
+  "created_at": "2025-10-24T11:08:44Z",
+  "description": "Cascading runtime for AI agents. Optimize cost, latency, quality, and policy decisions inside the agent loop.",
+  "full_name": "lemony-ai/cascadeflow",
+  "pushed_at": "2026-08-27T14:11:30Z",
+  "stars": 3977,
   "topics": [
    "agent",
    "ai",
+   "anthropic",
+   "api",
+   "budgets",
+   "claude"
+  ]
+ },
+ {
+  "created_at": "2025-01-30T14:02:20Z",
+  "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatica",
+  "full_name": "jihe520/MathModelAgent",
+  "pushed_at": "2026-08-27T08:50:26Z",
+  "stars": 3972,
+  "topics": [
+   "agent",
+   "llm",
+   "mathmodel",
+   "skills"
+  ]
+ },
+ {
+  "created_at": "2026-03-29T11:29:37Z",
+  "description": "🛠️ Awesome tools & guides for harness engineering.",
+  "full_name": "walkinglabs/awesome-harness-engineering",
+  "pushed_at": "2026-08-19T07:27:55Z",
+  "stars": 3967,
+  "topics": [
+   "agemt",
+   "agentic",
+   "agentic-ai",
+   "ai",
    "ai-agents",
-   "all-in-one",
-   "crm",
-   "crm-system"
+   "harness"
+  ]
+ },
+ {
+  "created_at": "2024-01-20T03:04:09Z",
+  "description": "Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation as",
+  "full_name": "yuruotong1/autoMate",
+  "pushed_at": "2026-08-25T23:14:46Z",
+  "stars": 3953,
+  "topics": [
+   "agent",
+   "ai",
+   "computeruse",
+   "deepseek",
+   "manus",
+   "ollama"
+  ]
+ },
+ {
+  "created_at": "2026-03-29T15:39:49Z",
+  "description": "Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability",
+  "full_name": "ai-boost/awesome-harness-engineering",
+  "pushed_at": "2026-08-27T03:06:58Z",
+  "stars": 3923,
+  "topics": [
+   "agent-harness",
+   "agent-memory",
+   "agent-orchestration",
+   "ai-agent-harness",
+   "ai-agents",
+   "awesome-list"
+  ]
+ },
+ {
+  "created_at": "2025-01-18T20:39:51Z",
+  "description": "Code, Build and Evaluate agents - excellent Model and Skills/MCP/ACP/A2A Support",
+  "full_name": "evalstate/fast-agent",
+  "pushed_at": "2026-08-29T19:20:20Z",
+  "stars": 3905,
+  "topics": [
+   "a2a",
+   "acp",
+   "agent",
+   "agent-framework",
+   "agent-skills",
+   "cli"
+  ]
+ },
+ {
+  "created_at": "2026-01-31T09:25:45Z",
+  "description": "secure multiplexed execution paths for agents - zero trust, zero setup, zero latency.",
+  "full_name": "nolabs-ai/nono",
+  "pushed_at": "2026-08-31T13:08:59Z",
+  "stars": 3899,
+  "topics": [
+   "agent-sandbox",
+   "agent-security",
+   "ai-agent-sandbox",
+   "ai-agent-security",
+   "ai-agents",
+   "ai-security"
+  ]
+ },
+ {
+  "created_at": "2024-06-04T05:01:45Z",
+  "description": "Easiest and laziest way for  building multi-agent LLMs applications.",
+  "full_name": "LazyAGI/LazyLLM",
+  "pushed_at": "2026-08-31T12:22:53Z",
+  "stars": 3879,
+  "topics": [
+   "agents",
+   "ai-agent",
+   "data",
+   "deep-learning",
+   "documentation-tool",
+   "finetuning"
+  ]
+ },
+ {
+  "created_at": "2023-10-30T12:12:45Z",
+  "description": "Superfast AI decision making and intelligent processing of multi-modal data.",
+  "full_name": "aurelio-labs/semantic-router",
+  "pushed_at": "2026-08-24T20:46:59Z",
+  "stars": 3855,
+  "topics": [
+   "ai",
+   "artificial-intelligence",
+   "chatbot",
+   "computer-vision",
+   "generative-ai",
+   "machine-learning"
+  ]
+ },
+ {
+  "created_at": "2024-04-17T01:15:56Z",
+  "description": "Maestro: Netflix’s Workflow Orchestrator",
+  "full_name": "Netflix/maestro",
+  "pushed_at": "2026-08-26T17:54:39Z",
+  "stars": 3831,
+  "topics": [
+   "agentic-workflow",
+   "analytics",
+   "automation",
+   "batch-processing",
+   "dag",
+   "data-engineering"
+  ]
+ },
+ {
+  "created_at": "2025-11-20T07:22:53Z",
+  "description": "企业级 Agentic RAG 智能体 - 全链路覆盖文档解析、多路检索、意图识别、问题重写、会话记忆、MCP 工具调用与深度思考。面向真实业务场景，从 0 到 1 完整工程实现。",
+  "full_name": "nageoffer/ragent",
+  "pushed_at": "2026-08-30T03:26:32Z",
+  "stars": 3825,
+  "topics": [
+   "agent",
+   "agentic-rag",
+   "ai",
+   "llm",
+   "mcp",
+   "rag"
+  ]
+ },
+ {
+  "created_at": "2025-03-19T21:06:53Z",
+  "description": "Biomni: a general-purpose biomedical AI agent",
+  "full_name": "snap-stanford/Biomni",
+  "pushed_at": "2026-08-24T18:55:59Z",
+  "stars": 3817,
+  "topics": [
+   "agent",
+   "ai",
+   "biomedicine"
+  ]
+ },
+ {
+  "created_at": "2025-07-12T13:52:17Z",
+  "description": "Neovim 🤝 OpenCode in the flow that you already know.",
+  "full_name": "nickjvandyke/opencode.nvim",
+  "pushed_at": "2026-08-21T14:04:52Z",
+  "stars": 3797,
+  "topics": [
+   "ai",
+   "ai-agents",
+   "ai-assistant",
+   "lua",
+   "neovim",
+   "neovim-plugin"
+  ]
+ },
+ {
+  "created_at": "2025-03-01T16:26:52Z",
+  "description": "🍒 This is the mobile version of Cherry Studio.",
+  "full_name": "CherryHQ/cherry-studio-app",
+  "pushed_at": "2026-08-31T11:29:09Z",
+  "stars": 3772,
+  "topics": [
+   "agent",
+   "android",
+   "assistant",
+   "chat-bot",
+   "expo",
+   "ios"
+  ]
+ },
+ {
+  "created_at": "2026-03-25T10:24:01Z",
+  "description": "Qiushi-Skill: Build agents that investigate first, focus on the main contradiction, validate in practice, and ",
+  "full_name": "HughYau/qiushi-skill",
+  "pushed_at": "2026-08-27T13:14:31Z",
+  "stars": 3756,
+  "topics": [
+   "ai-agents",
+   "methodology",
+   "skills",
+   "workflow"
+  ]
+ },
+ {
+  "created_at": "2022-12-02T06:57:56Z",
+  "description": "Paper list and datasets for industrial image anomaly/defect detection (updating). 工业异常/瑕疵检测论文及数据集检索库(持续更新)。",
+  "full_name": "M-3LAB/awesome-industrial-anomaly-detection",
+  "pushed_at": "2026-08-28T03:55:38Z",
+  "stars": 3751,
+  "topics": [
+   "anomaly-detection",
+   "anomaly-segmentation",
+   "computer-vision",
+   "dataset",
+   "deep-learning",
+   "defect-detection"
+  ]
+ },
+ {
+  "created_at": "2026-07-29T18:16:14Z",
+  "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an i",
+  "full_name": "microsoft/skill-recorder",
+  "pushed_at": "2026-08-24T04:38:41Z",
+  "stars": 3710,
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "automation",
+   "copilot",
+   "copilot-cli",
+   "copilot-cowork"
+  ]
+ },
+ {
+  "created_at": "2026-05-21T08:45:07Z",
+  "description": "The Harness of Harnesses: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaborat",
+  "full_name": "EverMind-AI/Raven",
+  "pushed_at": "2026-08-31T12:38:20Z",
+  "stars": 3703,
+  "topics": [
+   "ai",
+   "ai-agents",
+   "anthropic",
+   "chatgpt",
+   "claude",
+   "codex"
+  ]
+ },
+ {
+  "created_at": "2025-03-06T18:51:10Z",
+  "description": "PipesHub is an open-source fully extensible AI context layer that unifies your business data for explainable e",
+  "full_name": "pipeshub-ai/pipeshub-ai",
+  "pushed_at": "2026-08-31T13:16:40Z",
+  "stars": 3698,
+  "topics": [
+   "agent",
+   "agents",
+   "ai",
+   "drive",
+   "glean",
+   "gmail"
+  ]
+ },
+ {
+  "created_at": "2025-08-12T04:55:05Z",
+  "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI ",
+  "full_name": "kubernetes-sigs/agent-sandbox",
+  "pushed_at": "2026-08-31T07:08:07Z",
+  "stars": 3693,
+  "topics": [
+   "agent",
+   "ai",
+   "kubernetes",
+   "rl",
+   "sandbox"
+  ]
+ },
+ {
+  "created_at": "2026-03-23T19:48:59Z",
+  "description": "Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one loc",
+  "full_name": "yvgude/lean-ctx",
+  "pushed_at": "2026-08-31T13:26:46Z",
+  "stars": 3683,
+  "topics": [
+   "agentic-coding",
+   "ai",
+   "ai-agents",
+   "ai-coding",
+   "claude-code",
+   "context-engineering"
+  ]
+ },
+ {
+  "created_at": "2025-09-18T13:45:22Z",
+  "description": "Agent Package Manager",
+  "full_name": "microsoft/apm",
+  "pushed_at": "2026-08-31T13:42:26Z",
+  "stars": 3673,
+  "topics": [
+   "ai-agents",
+   "claude-code",
+   "codex-cli",
+   "context-engineering",
+   "github-copilot",
+   "package-manager"
   ]
  }
 ]

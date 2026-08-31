@@ -120,18 +120,20 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 | # | 仓库 | 积压比 | open issues | stars |
 |---|---|---|---|---|
 | 1 | maximhq/bifrost | 12.83% | 987 | 7692 |
-| 2 | elizaOS/eliza | 7.95% | 1528 | 19219 |
+| 2 | elizaOS/eliza | 7.97% | 1532 | 19220 |
 | 3 | langchain4j/langchain4j | 6.82% | 885 | 12984 |
-| 4 | t8y2/dbx | 6.54% | 1148 | 17565 |
+| 4 | t8y2/dbx | 6.53% | 1148 | 17567 |
 | 5 | livekit/agents | 5.64% | 785 | 13908 |
 
 ### 🐢 响应最慢榜（首个非作者评论中位数）
 
 | # | 仓库 | 响应时长 | open issues |
 |---|---|---|---|
-| 1 | langbot-app/LangBot | 8.9h | 128 |
-| 2 | maximhq/bifrost | 0.3h | 987 |
-| 3 | eosphoros-ai/DB-GPT | 0.2h | 423 |
+| 1 | GoogleCloudPlatform/generative-ai | 905.2h | 87 |
+| 2 | coderamp-labs/gitingest | 633.3h | 22 |
+| 3 | ai-shifu/ChatALL | 310.0h | 228 |
+| 4 | walkinglabs/learn-harness-engineering | 280.1h | 10 |
+| 5 | dottxt-ai/outlines | 236.1h | 161 |
 
 > 星速 = 总星差/天数；积压比 ≥5% 视为积压；响应时长 = issue 首个非作者评论时间中位数（小时）。
 <!-- STAR_SCOUT_BOARD:END -->
@@ -144,11 +146,11 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 
 | # | 仓库 | 评分 | 评级 | 星速(天) | 响应时长 | 积压比 |
 |---|---|---|---|---|---|---|
-| 1 | eosphoros-ai/DB-GPT | **88.6** | 优质 | - | 0.2h | 2.13% |
-| 2 | langbot-app/LangBot | **82.9** | 优质 | - | 8.9h | 0.73% |
-| 3 | fathah/hermes-desktop | **77.5** | 优质 | - | - | 2.84% |
-| 4 | 1jehuang/jcode | **77.5** | 优质 | - | - | 2.05% |
-| 5 | yc-software/qm | **77.5** | 优质 | - | - | 2.52% |
+| 1 | wanshuiyin/Auto-claude-code-research-in-sleep | **92.5** | 优质 | - | 5.9h | 0.41% |
+| 2 | palmier-io/palmier-pro | **90.6** | 优质 | - | 2.2h | 0.66% |
+| 3 | Anionex/banana-slides | **90.6** | 优质 | - | 0.1h | 0.43% |
+| 4 | pipecat-ai/pipecat | **90.5** | 优质 | - | 6.5h | 1.72% |
+| 5 | googleapis/mcp-toolbox | **89.6** | 优质 | - | 10.6h | 1.54% |
 
 > 发展=星速+近期提交活跃；响应=issue 首个非作者评论中位数；issue健康=积压比适中；社区认可=星标对数。缺数据取中性，避免冷启动一票否决。
 <!-- STAR_SCOUT_TOP:END -->
