@@ -109,31 +109,37 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 ## 📊 信号排行榜（每日自动更新）
 
 <!-- STAR_SCOUT_BOARD:START -->
-数据截至 **2026-08-31** · 完整图表看板见仓库 `docs/index.html`（GitHub Pages）
+数据截至 **2026-09-01** · 完整图表看板见仓库 `docs/index.html`（GitHub Pages）
 
 ### 🔥 星速榜（星/天，需 ≥2 天快照）
 
-⏳ 第 2 天快照后自动出现（所有仓库目前只有 1 天数据）。
+| # | 仓库 | 星速(天) | 加速度 | 信号 |
+|---|---|---|---|---|
+| 1 | browseros-ai/BrowserOS | 17.0 | 1.0 | 平稳增长 |
+| 2 | maximhq/bifrost | 15.0 | 1.0 | 平稳增长 |
+| 3 | superset-sh/superset | 15.0 | 1.0 | 平稳增长 |
+| 4 | livekit/agents | 13.0 | 1.0 | 平稳增长 |
+| 5 | BasedHardware/omi | 10.0 | 1.0 | 平稳增长 |
 
 ### ⚠️ 积压比榜（open issues / stars）
 
 | # | 仓库 | 积压比 | open issues | stars |
 |---|---|---|---|---|
-| 1 | maximhq/bifrost | 12.83% | 987 | 7692 |
-| 2 | elizaOS/eliza | 7.97% | 1532 | 19220 |
-| 3 | langchain4j/langchain4j | 6.82% | 885 | 12984 |
-| 4 | t8y2/dbx | 6.53% | 1148 | 17567 |
-| 5 | livekit/agents | 5.64% | 785 | 13908 |
+| 1 | maximhq/bifrost | 12.68% | 977 | 7707 |
+| 2 | aden-hive/hive | 12.23% | 1345 | 10995 |
+| 3 | elizaOS/eliza | 7.97% | 1532 | 19220 |
+| 4 | FlagOpen/FlagEmbedding | 7.48% | 906 | 12113 |
+| 5 | XiaomiMiMo/MiMo-Code | 7.45% | 962 | 12913 |
 
 ### 🐢 响应最慢榜（首个非作者评论中位数）
 
 | # | 仓库 | 响应时长 | open issues |
 |---|---|---|---|
-| 1 | GoogleCloudPlatform/generative-ai | 905.2h | 87 |
-| 2 | coderamp-labs/gitingest | 633.3h | 22 |
-| 3 | ai-shifu/ChatALL | 310.0h | 228 |
-| 4 | walkinglabs/learn-harness-engineering | 280.1h | 10 |
-| 5 | dottxt-ai/outlines | 236.1h | 161 |
+| 1 | datawhalechina/llm-universe | 2341.3h | 16 |
+| 2 | bentoml/OpenLLM | 1648.9h | 17 |
+| 3 | OpenMOSS/MOSS | 1616.7h | 243 |
+| 4 | GoogleCloudPlatform/generative-ai | 905.2h | 87 |
+| 5 | microsoft/promptflow | 880.1h | 68 |
 
 > 星速 = 总星差/天数；积压比 ≥5% 视为积压；响应时长 = issue 首个非作者评论时间中位数（小时）。
 <!-- STAR_SCOUT_BOARD:END -->
@@ -142,15 +148,15 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 ## 🏆 值得跟踪 Top N（每日自动更新）
 
 <!-- STAR_SCOUT_TOP:START -->
-数据截至 **2026-08-31** · 评分 = 0.25·发展 + 0.30·响应 + 0.20·issue健康 + 0.25·社区认可
+数据截至 **2026-09-01** · 评分 = 0.25·发展 + 0.30·响应 + 0.20·issue健康 + 0.25·社区认可
 
 | # | 仓库 | 评分 | 评级 | 星速(天) | 响应时长 | 积压比 |
 |---|---|---|---|---|---|---|
-| 1 | wanshuiyin/Auto-claude-code-research-in-sleep | **92.5** | 优质 | - | 5.9h | 0.41% |
-| 2 | palmier-io/palmier-pro | **90.6** | 优质 | - | 2.2h | 0.66% |
-| 3 | Anionex/banana-slides | **90.6** | 优质 | - | 0.1h | 0.43% |
-| 4 | pipecat-ai/pipecat | **90.5** | 优质 | - | 6.5h | 1.72% |
-| 5 | googleapis/mcp-toolbox | **89.6** | 优质 | - | 10.6h | 1.54% |
+| 1 | modelcontextprotocol/typescript-sdk | **93.1** | 优质 | 8.0 | 7.2h | 4.48% |
+| 2 | The-PR-Agent/pr-agent | **92.5** | 优质 | - | 1.7h | 0.61% |
+| 3 | wanshuiyin/Auto-claude-code-research-in-sleep | **92.5** | 优质 | - | 5.9h | 0.41% |
+| 4 | mrexodia/ida-pro-mcp | **92.5** | 优质 | - | 1.8h | 0.38% |
+| 5 | cocoindex-io/cocoindex | **91.1** | 优质 | - | 11.7h | 0.66% |
 
 > 发展=星速+近期提交活跃；响应=issue 首个非作者评论中位数；issue健康=积压比适中；社区认可=星标对数。缺数据取中性，避免冷启动一票否决。
 <!-- STAR_SCOUT_TOP:END -->
