@@ -115,11 +115,11 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 
 | # | 仓库 | 星速(天) | 加速度 | 信号 |
 |---|---|---|---|---|
-| 1 | browseros-ai/BrowserOS | 17.0 | 1.0 | 平稳增长 |
-| 2 | maximhq/bifrost | 15.0 | 1.0 | 平稳增长 |
-| 3 | superset-sh/superset | 15.0 | 1.0 | 平稳增长 |
-| 4 | livekit/agents | 13.0 | 1.0 | 平稳增长 |
-| 5 | BasedHardware/omi | 10.0 | 1.0 | 平稳增长 |
+| 1 | every-app/open-seo | 344.0 | 1.0 | 爆发且健康 |
+| 2 | img2threejs/img2threejs | 120.0 | 1.0 | 爆发且健康 |
+| 3 | AgriciDaniel/claude-seo | 73.0 | 1.0 | 爆发且健康 |
+| 4 | NVIDIA/SkillSpector | 72.0 | 1.0 | 爆发且健康 |
+| 5 | 1jehuang/jcode | 54.0 | 1.0 | 爆发且健康 |
 
 ### ⚠️ 积压比榜（open issues / stars）
 
@@ -127,7 +127,7 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 |---|---|---|---|---|
 | 1 | maximhq/bifrost | 12.68% | 977 | 7707 |
 | 2 | aden-hive/hive | 12.23% | 1345 | 10995 |
-| 3 | elizaOS/eliza | 7.97% | 1532 | 19220 |
+| 3 | elizaOS/eliza | 8.21% | 1578 | 19220 |
 | 4 | FlagOpen/FlagEmbedding | 7.48% | 906 | 12113 |
 | 5 | XiaomiMiMo/MiMo-Code | 7.45% | 962 | 12913 |
 
@@ -138,7 +138,7 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 | 1 | datawhalechina/llm-universe | 2341.3h | 16 |
 | 2 | bentoml/OpenLLM | 1648.9h | 17 |
 | 3 | OpenMOSS/MOSS | 1616.7h | 243 |
-| 4 | GoogleCloudPlatform/generative-ai | 905.2h | 87 |
+| 4 | GoogleCloudPlatform/generative-ai | 905.2h | 84 |
 | 5 | microsoft/promptflow | 880.1h | 68 |
 
 > 星速 = 总星差/天数；积压比 ≥5% 视为积压；响应时长 = issue 首个非作者评论时间中位数（小时）。
@@ -152,11 +152,11 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 
 | # | 仓库 | 评分 | 评级 | 星速(天) | 响应时长 | 积压比 |
 |---|---|---|---|---|---|---|
-| 1 | modelcontextprotocol/typescript-sdk | **93.1** | 优质 | 8.0 | 7.2h | 4.48% |
-| 2 | The-PR-Agent/pr-agent | **92.5** | 优质 | - | 1.7h | 0.61% |
-| 3 | wanshuiyin/Auto-claude-code-research-in-sleep | **92.5** | 优质 | - | 5.9h | 0.41% |
-| 4 | mrexodia/ida-pro-mcp | **92.5** | 优质 | - | 1.8h | 0.38% |
-| 5 | cocoindex-io/cocoindex | **91.1** | 优质 | - | 11.7h | 0.66% |
+| 1 | pipecat-ai/pipecat | **99.9** | 优质 | 42.0 | 6.4h | 2.07% |
+| 2 | wanshuiyin/Auto-claude-code-research-in-sleep | **97.3** | 优质 | 28.0 | 16.9h | 0.41% |
+| 3 | eosphoros-ai/DB-GPT | **96.8** | 优质 | 8.0 | 0.2h | 2.14% |
+| 4 | nesquena/hermes-webui | **94.5** | 优质 | 19.0 | 1.0h | 4.56% |
+| 5 | earthtojake/text-to-cad | **94.1** | 优质 | 16.0 | 7.0h | 0.09% |
 
 > 发展=星速+近期提交活跃；响应=issue 首个非作者评论中位数；issue健康=积压比适中；社区认可=星标对数。缺数据取中性，避免冷启动一票否决。
 <!-- STAR_SCOUT_TOP:END -->
