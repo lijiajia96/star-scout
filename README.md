@@ -109,25 +109,25 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 ## 📊 信号排行榜（每日自动更新）
 
 <!-- STAR_SCOUT_BOARD:START -->
-数据截至 **2026-09-03** · 完整图表看板见仓库 `docs/index.html`（GitHub Pages）
+数据截至 **2026-09-04** · 完整图表看板见仓库 `docs/index.html`（GitHub Pages）
 
 ### 🔥 星速榜（星/天，需 ≥2 天快照）
 
 | # | 仓库 | 星速(天) | 加速度 | 信号 |
 |---|---|---|---|---|
 | 1 | debpalash/VoiceStudio | 1224.0 | 1.0 | 爆发且健康 |
-| 2 | every-app/open-seo | 334.5 | 0.97 | 爆发且健康 |
+| 2 | every-app/open-seo | 325.0 | 0.84 | 爆发且健康 |
 | 3 | ifixai-ai/iFixAi | 263.0 | 1.0 | 爆发且健康 |
 | 4 | lidge-jun/opencodex | 176.5 | 1.0 | 爆发且健康 |
-| 5 | img2threejs/img2threejs | 130.5 | 1.08 | 爆发且健康 |
+| 5 | semantica-agi/semantica | 122.5 | 1.0 | 爆发且健康 |
 
 ### ⚠️ 积压比榜（open issues / stars）
 
 | # | 仓库 | 积压比 | open issues | stars |
 |---|---|---|---|---|
-| 1 | maximhq/bifrost | 12.99% | 1006 | 7744 |
+| 1 | maximhq/bifrost | 12.31% | 959 | 7791 |
 | 2 | aden-hive/hive | 12.19% | 1342 | 11010 |
-| 3 | elizaOS/eliza | 8.38% | 1611 | 19225 |
+| 3 | elizaOS/eliza | 9.02% | 1736 | 19242 |
 | 4 | XiaomiMiMo/MiMo-Code | 7.48% | 967 | 12931 |
 | 5 | FlagOpen/FlagEmbedding | 7.47% | 906 | 12124 |
 
@@ -138,7 +138,7 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 | 1 | datawhalechina/llm-universe | 2341.3h | 17 |
 | 2 | bentoml/OpenLLM | 1648.9h | 17 |
 | 3 | OpenMOSS/MOSS | 1257.2h | 243 |
-| 4 | GoogleCloudPlatform/generative-ai | 905.2h | 86 |
+| 4 | GoogleCloudPlatform/generative-ai | 905.2h | 88 |
 | 5 | microsoft/promptflow | 880.1h | 66 |
 
 > 星速 = 总星差/天数；积压比 ≥5% 视为积压；响应时长 = issue 首个非作者评论时间中位数（小时）。
@@ -148,15 +148,15 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 ## 🏆 值得跟踪 Top N（每日自动更新）
 
 <!-- STAR_SCOUT_TOP:START -->
-数据截至 **2026-09-03** · 评分 = 0.25·发展 + 0.30·响应 + 0.20·issue健康 + 0.25·社区认可
+数据截至 **2026-09-04** · 评分 = 0.25·发展 + 0.30·响应 + 0.20·issue健康 + 0.25·社区认可
 
 | # | 仓库 | 评分 | 评级 | 星速(天) | 响应时长 | 积压比 |
 |---|---|---|---|---|---|---|
-| 1 | semantica-agi/semantica | **100.0** | 优质 | 122.5 | 5.2h | 1.03% |
-| 2 | lidge-jun/opencodex | **100.0** | 优质 | 176.5 | 0.4h | 0.65% |
-| 3 | The-PR-Agent/pr-agent | **100.0** | 优质 | 18.0 | 1.7h | 0.65% |
-| 4 | MemTensor/MemOS | **100.0** | 优质 | 21.5 | 0.0h | 0.72% |
-| 5 | mrexodia/ida-pro-mcp | **100.0** | 优质 | 31.5 | 3.6h | 0.38% |
+| 1 | pipecat-ai/pipecat | **100.0** | 优质 | 42.0 | 2.3h | 1.97% |
+| 2 | semantica-agi/semantica | **100.0** | 优质 | 122.5 | 5.2h | 1.03% |
+| 3 | lidge-jun/opencodex | **100.0** | 优质 | 176.5 | 0.4h | 0.65% |
+| 4 | The-PR-Agent/pr-agent | **100.0** | 优质 | 18.0 | 1.7h | 0.65% |
+| 5 | MemTensor/MemOS | **100.0** | 优质 | 21.5 | 0.0h | 0.72% |
 
 > 发展=星速+近期提交活跃；响应=issue 首个非作者评论中位数；issue健康=积压比适中；社区认可=星标对数。缺数据取中性，避免冷启动一票否决。
 <!-- STAR_SCOUT_TOP:END -->
