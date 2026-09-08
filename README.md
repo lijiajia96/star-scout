@@ -109,23 +109,23 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 ## 📊 信号排行榜（每日自动更新）
 
 <!-- STAR_SCOUT_BOARD:START -->
-数据截至 **2026-09-07** · 完整图表看板见仓库 `docs/index.html`（GitHub Pages）
+数据截至 **2026-09-08** · 完整图表看板见仓库 `docs/index.html`（GitHub Pages）
 
 ### 🔥 星速榜（星/天，需 ≥2 天快照）
 
 | # | 仓库 | 星速(天) | 加速度 | 信号 |
 |---|---|---|---|---|
 | 1 | debpalash/VoiceStudio | 1224.0 | 0.74 | 爆发且健康 |
-| 2 | every-app/open-seo | 304.75 | 0.93 | 爆发且健康 |
+| 2 | every-app/open-seo | 284.5 | 0.79 | 爆发且健康 |
 | 3 | lidge-jun/opencodex | 169.0 | 1.0 | 爆发且健康 |
-| 4 | NVIDIA/SkillSpector | 138.75 | 1.31 | 爆发且健康 |
-| 5 | ifixai-ai/iFixAi | 133.0 | 0.55 | 爆发且健康 |
+| 4 | ifixai-ai/iFixAi | 133.0 | 0.55 | 爆发且健康 |
+| 5 | NVIDIA/SkillSpector | 132.0 | 1.0 | 爆发且健康 |
 
 ### ⚠️ 积压比榜（open issues / stars）
 
 | # | 仓库 | 积压比 | open issues | stars |
 |---|---|---|---|---|
-| 1 | maximhq/bifrost | 12.47% | 976 | 7827 |
+| 1 | maximhq/bifrost | 12.39% | 975 | 7872 |
 | 2 | aden-hive/hive | 12.36% | 1362 | 11021 |
 | 3 | XiaomiMiMo/MiMo-Code | 7.58% | 982 | 12958 |
 | 4 | FlagOpen/FlagEmbedding | 7.49% | 909 | 12138 |
@@ -148,15 +148,15 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 ## 🏆 值得跟踪 Top N（每日自动更新）
 
 <!-- STAR_SCOUT_TOP:START -->
-数据截至 **2026-09-07** · 评分 = 0.25·发展 + 0.30·响应 + 0.20·issue健康 + 0.25·社区认可
+数据截至 **2026-09-08** · 评分 = 0.25·发展 + 0.30·响应 + 0.20·issue健康 + 0.25·社区认可
 
 | # | 仓库 | 评分 | 评级 | 星速(天) | 响应时长 | 积压比 |
 |---|---|---|---|---|---|---|
-| 1 | pipecat-ai/pipecat | **100.0** | 优质 | 40.0 | 2.9h | 2.02% |
-| 2 | lidge-jun/opencodex | **100.0** | 优质 | 169.0 | 0.3h | 0.79% |
-| 3 | semantica-agi/semantica | **100.0** | 优质 | 122.5 | 2.5h | 0.86% |
-| 4 | debpalash/VoiceStudio | **100.0** | 优质 | 1224.0 | 3.8h | 0.39% |
-| 5 | The-PR-Agent/pr-agent | **100.0** | 优质 | 17.5 | 2.7h | 0.54% |
+| 1 | pipecat-ai/pipecat | **100.0** | 优质 | 38.0 | 2.7h | 2.11% |
+| 2 | opensandbox-group/OpenSandbox | **100.0** | 优质 | 22.5 | 4.1h | 0.92% |
+| 3 | lidge-jun/opencodex | **100.0** | 优质 | 169.0 | 0.3h | 0.79% |
+| 4 | semantica-agi/semantica | **100.0** | 优质 | 122.5 | 2.5h | 0.86% |
+| 5 | debpalash/VoiceStudio | **100.0** | 优质 | 1224.0 | 3.8h | 0.39% |
 
 > 发展=星速+近期提交活跃；响应=issue 首个非作者评论中位数；issue健康=积压比适中；社区认可=星标对数。缺数据取中性，避免冷启动一票否决。
 <!-- STAR_SCOUT_TOP:END -->
