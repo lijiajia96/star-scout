@@ -109,27 +109,27 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 ## 📊 信号排行榜（每日自动更新）
 
 <!-- STAR_SCOUT_BOARD:START -->
-数据截至 **2026-09-09** · 完整图表看板见仓库 `docs/index.html`（GitHub Pages）
+数据截至 **2026-09-10** · 完整图表看板见仓库 `docs/index.html`（GitHub Pages）
 
 ### 🔥 星速榜（星/天，需 ≥2 天快照）
 
 | # | 仓库 | 星速(天) | 加速度 | 信号 |
 |---|---|---|---|---|
 | 1 | debpalash/VoiceStudio | 1062.0 | 0.67 | 爆发且健康 |
-| 2 | every-app/open-seo | 284.5 | 0.79 | 爆发且健康 |
+| 2 | every-app/open-seo | 278.75 | 0.73 | 爆发且健康 |
 | 3 | lidge-jun/opencodex | 159.5 | 0.94 | 爆发且健康 |
-| 4 | NVIDIA/SkillSpector | 132.0 | 1.0 | 爆发且健康 |
-| 5 | ifixai-ai/iFixAi | 130.75 | 0.98 | 爆发且健康 |
+| 4 | ifixai-ai/iFixAi | 130.75 | 0.98 | 爆发且健康 |
+| 5 | NVIDIA/SkillSpector | 123.25 | 0.93 | 爆发且健康 |
 
 ### ⚠️ 积压比榜（open issues / stars）
 
 | # | 仓库 | 积压比 | open issues | stars |
 |---|---|---|---|---|
-| 1 | aden-hive/hive | 12.39% | 1366 | 11021 |
-| 2 | maximhq/bifrost | 12.39% | 975 | 7872 |
+| 1 | maximhq/bifrost | 12.61% | 1001 | 7935 |
+| 2 | aden-hive/hive | 12.39% | 1366 | 11021 |
 | 3 | XiaomiMiMo/MiMo-Code | 7.59% | 985 | 12985 |
 | 4 | FlagOpen/FlagEmbedding | 7.48% | 909 | 12151 |
-| 5 | langchain4j/langchain4j | 6.92% | 903 | 13056 |
+| 5 | t8y2/dbx | 6.99% | 1310 | 18753 |
 
 ### 🐢 响应最慢榜（首个非作者评论中位数）
 
@@ -148,12 +148,12 @@ python3 maintain.py reset-responses  # 作废历史响应数据，按新逻辑�
 ## 🏆 值得跟踪 Top N（每日自动更新）
 
 <!-- STAR_SCOUT_TOP:START -->
-数据截至 **2026-09-09** · 评分 = 0.25·发展 + 0.30·响应 + 0.20·issue健康 + 0.25·社区认可
+数据截至 **2026-09-10** · 评分 = 0.25·发展 + 0.30·响应 + 0.20·issue健康 + 0.25·社区认可
 
 | # | 仓库 | 评分 | 评级 | 星速(天) | 响应时长 | 积压比 |
 |---|---|---|---|---|---|---|
-| 1 | pipecat-ai/pipecat | **100.0** | 优质 | 38.0 | 2.7h | 2.11% |
-| 2 | opensandbox-group/OpenSandbox | **100.0** | 优质 | 22.5 | 4.1h | 0.92% |
+| 1 | pipecat-ai/pipecat | **100.0** | 优质 | 39.0 | 2.3h | 2.04% |
+| 2 | opensandbox-group/OpenSandbox | **100.0** | 优质 | 23.75 | 3.2h | 0.90% |
 | 3 | lidge-jun/opencodex | **100.0** | 优质 | 159.5 | 0.4h | 0.91% |
 | 4 | The-PR-Agent/pr-agent | **100.0** | 优质 | 17.25 | 3.2h | 0.88% |
 | 5 | debpalash/VoiceStudio | **100.0** | 优质 | 1062.0 | 4.1h | 0.50% |
